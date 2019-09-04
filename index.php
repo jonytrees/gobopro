@@ -59,7 +59,6 @@ $image = SI_CurrentPageImage();
 
 <body id="main">
 <div id="global-wrapper">
-
     <!--===================================================== Loader -->
         <div class="loader">
             <div class="pseudo-table">
@@ -205,14 +204,12 @@ $image = SI_CurrentPageImage();
                     </span>
                 </div>
             </div>
-
             <p class="last open-characteristic-modal">
                 полные характеристики
             </p>
 
         </div>
     </section>
-
 
     <!--===================================================== section sub_header -->
     <section class="section-sub_header" id="sub_header">
@@ -271,7 +268,6 @@ $image = SI_CurrentPageImage();
                     <div class="swiper-slide">
                         <div class="place-wrapper i-10"></div>
                     </div>
-
                 </div>
             </div>
 
@@ -293,7 +289,6 @@ $image = SI_CurrentPageImage();
             <div class="project-text">
                 Проектор GoboPro X55 подходит для 99% способов применения: от привлечения пешеходного трафика и праздников до организации знаков безопасности на производствах. Он лёгок в монтаже и смене изображений, не требует специальной настройки, оборудования или навыков для своей работы.
             </div>
-
             <div class="wrapper-logo-slider">
 
                 <!-- Swiper -->
@@ -364,7 +359,6 @@ $image = SI_CurrentPageImage();
             </div>
         </div>
     </section>
-
 
     <!--===================================================== section install -->
     <section class="section-install" id="install">
