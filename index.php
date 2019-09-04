@@ -465,12 +465,9 @@ $image = SI_CurrentPageImage();
     <!--===================================================== section video -->
     <section class="section-video" id="video">
         <div class="container">
-
             <h2>
                 Видео-инструкция по установке
             </h2>
-
-
             <div class="tabs-block video-block align-center" data-tab-block="t-price">
 
                 <ul class="nav nav-tabs">
@@ -534,13 +531,10 @@ $image = SI_CurrentPageImage();
                             </div>
                         </a>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </section>
-
 
     <!--===================================================== section what -->
     <section class="section-what" id="what">
