@@ -1,0 +1,144 @@
+//====================global header
+.layout-header {
+	//@include abs-center;
+	@include abs-center-fixed;
+	bottom: auto;
+	z-index: 50;
+	padding-top: 26px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+
+	&.active {
+		background-color: #121217;
+	}
+
+	.si-phone {
+		padding-top: 0px;
+	}
+
+
+.logo {
+	width: 85px;
+	height: 92px;
+	display: inline-block;
+
+	img {
+		display: block;
+	}
+}
+
+	.position{
+		position: relative;
+	}
+
+.si-phone {
+	width: 450px;
+	display: inline-block;
+	margin-top: 32px;
+
+	.phone-link,
+	.mail-link{
+		display: inline-block;
+		position: relative;
+		width: 200px;
+		margin-right: 0;
+		font: 400 21px/21px 'Helvetica';
+		color: #fff !important;
+
+		&:hover{
+			&:after{
+				@extend .buzz-out;
+			}
+		}
+
+		&:after{
+			content: '';
+			width: 20px;
+			height: 20px;
+			display: block;
+			position: absolute;
+			background: url("../svg/telephone.svg") no-repeat;
+			-webkit-background-size: cover;
+			background-size: cover;
+			top: 3px;
+			left: -30px;
+		}
+	}
+
+	.phone-link{
+		width: 180px;
+		float: right;
+		font: 400 24px/24px 'Helvetica';
+	}
+
+	.mail-link{
+		margin-right: 65px;
+
+		&:after{
+			content: '';
+			width: 29px;
+			height: 26px;
+			display: block;
+			position: absolute;
+			background: url("../svg/mail.svg") no-repeat;
+			-webkit-background-size: cover;
+			background-size: cover;
+			top: -3px;
+			left: -42px;
+		}
+	}
+
+}
+
+	.consult{
+		width: 222px;
+		height: 57px;
+		display: inline-block;
+		text-align: center;
+		background: linear-gradient(to right, #0171ca 0%, #b943df 100%);
+		position: relative;
+		margin-left: 30px;
+		margin-top: 13px;
+		vertical-align: top;
+
+		span{
+			content: '';
+			position: absolute;
+			width: 218px;
+			height: 53px;
+			display: block;
+			color: #fff !important;
+			font: 300 17px/55px 'Myriad';
+			background: #121217;
+			top: 2px;
+			left: 2px;
+		}
+
+		&:hover{
+			span{
+				@include general-transition;
+				background: transparent;
+			}
+		}
+
+		&:not(hover){
+			span{
+				@include general-transition;
+			}
+		}
+	}
+
+.global-nav {
+
+	li {
+
+		&:not(:first-child) {
+		margin-left: 0px;
+		}
+	}
+
+	a {
+
+	}
+}
+}

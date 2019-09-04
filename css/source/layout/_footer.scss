@@ -1,0 +1,138 @@
+//====================global footer
+.layout-footer {
+	padding: 67px 0 95px;
+	background-color: #121217;
+
+	.logo-block{
+		display: block;
+		margin-top: 15px;
+
+		.logo{
+			display: inline-block;
+			width: 95px;
+			height: 83px;
+			margin-right: 28px;
+		}
+
+		.logo-text{
+			display: inline-block;
+			width: 447px;
+			vertical-align: top;
+
+			.title{
+				font: 300 23px/23px 'Myriad';
+				display: block;
+				margin-bottom: 23px;
+			}
+
+			.text{
+				color: #6a6b74;
+				font: 300 18px/18px 'Myriad';
+				display: block;
+				margin-bottom: 16px;
+			}
+		}
+	}
+
+	.phone-link,
+	.mail-link{
+		display: inline-block;
+		position: relative;
+		width: 200px;
+		margin-right: 35px;
+		margin-top: 18px;
+		font: 400 24px/24px 'Helvetica';
+		color: #fff !important;
+
+		&:hover{
+			&:after{
+				@extend .buzz-out;
+			}
+		}
+
+		&:after{
+			content: '';
+			width: 18px;
+			height: 18px;
+			display: block;
+			position: absolute;
+			background: url("../svg/telephone.svg") no-repeat;
+			-webkit-background-size: cover;
+			background-size: cover;
+			top: 0;
+			left: -10px;
+		}
+
+	}
+
+	.mail-link{
+		display: block;
+		margin-right: 0;
+		margin-top: 20px;
+		font: 400 21px/21px 'Helvetica';
+		float: right;
+
+		&:after{
+			content: '';
+			width: 27px;
+			height: 24px;
+			display: block;
+			position: absolute;
+			background: url("../svg/mail.svg") no-repeat;
+			-webkit-background-size: cover;
+			background-size: cover;
+			top: -5px;
+			left: -42px;
+		}
+	}
+
+	.consult{
+		width: 222px;
+		height: 57px;
+		display: inline-block;
+		text-align: center;
+		background: linear-gradient(to right, #0171ca 0%, #b943df 100%);
+		position: relative;
+		vertical-align: top;
+
+		span{
+			content: '';
+			position: absolute;
+			width: 218px;
+			height: 53px;
+			display: block;
+			color: #fff !important;
+			font: 300 17px/55px 'Myriad';
+			background: #121217;
+			top: 2px;
+			left: 2px;
+		}
+
+		&:hover{
+			span{
+				@include general-transition;
+				background: transparent;
+			}
+		}
+
+		&:not(hover){
+			span{
+				@include general-transition;
+			}
+		}
+	}
+
+	.data{
+		color: #6a6b74;
+		font: 300 14px/14px 'Myriad';
+		display: block;
+		margin-top: 60px;
+		text-decoration: underline;
+		width: 100%;
+		text-align: right;
+
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}

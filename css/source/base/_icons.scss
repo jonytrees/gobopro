@@ -1,0 +1,111 @@
+//====================icons
+.icon {
+	display: inline-block;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url('../images/sprite.png') no-repeat transparent;
+	position: relative;
+	vertical-align: middle;
+}
+
+.icon-zoom {
+	width: 60px;
+	height: 60px;
+	background: url('../images/icon-zoom.png') no-repeat transparent;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+.will-change {
+	background: none;
+
+	&::before,
+	&::after {
+		@include general-transition;
+		@include abs-center;
+		content: "";
+		overflow: hidden;
+		background: url('../images/sprite.png') no-repeat transparent;
+	}
+
+	&::before {
+		opacity: 1;
+	}
+
+	&::after {
+		opacity: 0;
+	}
+
+	&:hover,
+	&:active,
+	&.active {
+
+		&::before {
+		opacity: 0;
+		}
+
+		&::after {
+		opacity: 1;
+		}
+	}
+
+	&:hover,
+	&:active,
+	a:hover &,
+	a:active &,
+	.question:hover &,
+	.question:active &,
+	.question-item.active .question & {
+
+		&::before {
+		opacity: 0;
+		}
+
+		&::after {
+		opacity: 1;
+		}
+	}
+}
+
+//==================== SVG icons
+.svg-icon {
+	@include general-transition;
+	display: inline-block;
+	vertical-align: middle;
+	fill-rule: evenodd;
+	clip-rule: evenodd;
+}
+
+.close {
+	width: 40px !important;
+	height: 40px !important;
+
+	background: url("../svg/cancel.svg") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	a:hover &,
+	a:active & {
+		fill: $accent-color;
+	}
+}
+
+.cancel{
+	fill: #919191;
+}
+
+.drag,
+.export,
+.vision,
+.ventilator,
+.rotate,
+.giftbox,
+.history,
+.left,
+.right,
+.spotlight,
+.rgb,
+.play{
+	fill:#FFFFFF;
+}

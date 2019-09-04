@@ -1,0 +1,264 @@
+//==================== modal overlay
+html {
+
+	&.si-lock {
+		overflow: hidden !important;
+	}
+
+	&.si-lock2 {
+		height: 100% !important;
+		overflow: hidden !important;
+	}
+}
+
+.fancybox-margin {
+  	margin-right: 0 !important
+}
+
+.si-overlay {
+	@include abs-center-fixed;
+	display: none;
+	background: transparentize(#121217, .1);
+	z-index: 203;
+}
+
+.si-overlay-2 {
+	@extend .si-overlay;
+	z-index: 205;
+}
+
+.si-modals-wrapper {
+	@include abs-center-fixed;
+	display: none;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	z-index: 203;
+}
+
+.si-modals-wrapper-2 {
+	@extend .si-modals-wrapper;
+	z-index: 205;
+}
+
+//==================== modal close
+.si-close {
+	@extend .icon;
+	@extend .close !optional;
+	position: absolute !important;
+	top: -40px;
+	right: -40px;
+}
+
+//==================== modal - basic
+.si-modal {
+	@include general-transition;
+	@include transform(scale(0.7));
+	transition-duration: 0.5s;
+	display: none;
+	position: relative;
+	color: #ffffff;
+	background: #17171d;
+	padding: 65px 60px 65px;
+	width: 1030px;
+	margin: 80px auto;
+
+	&.si-visible {
+		@include transform(scale(1));
+	}
+
+	.btn-holder {
+		margin-top: 0px;
+	}
+
+	.btn {
+		min-width: 300px;
+	}
+}
+
+.modal-form-title {
+	text-align: center;
+	font: 600 48px/48px 'Myriad';
+	display: block;
+	width: 100%;
+  	margin-bottom: 80px;
+}
+
+.left,
+.right{
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+
+.right{
+	float: right;
+}
+
+.characteristic-img{
+	display: block;
+	margin-bottom: 95px;
+
+	&.img-1{
+		margin-left: 70px;
+	}
+}
+
+.characteristic-block{
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+
+	.characteristic-icon{
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 24px;
+	}
+
+	.characteristic-text{
+		width: 340px;
+		display: inline-block;
+		vertical-align: top;
+		font: 300 21px/24px 'Helvetica';
+	}
+
+	&.i-1{
+		.characteristic-icon{
+			width: 26px;
+			height: 35px;
+			margin-right: 28px;
+		}
+		.characteristic-text{
+			margin-top: 7px;
+		}
+	}
+
+	&.i-2{
+		.characteristic-icon{
+			width: 37px;
+			height: 35px;
+			margin-right: 17px;
+		}
+	}
+
+	&.i-3{
+		.characteristic-icon{
+			width: 29px;
+			height: 29px;
+			margin-right: 24px;
+		}
+	}
+
+	&.i-7,
+	&.i-8{
+		.characteristic-text{
+			margin-top: 6px;
+		}
+	}
+
+	&.i-9{
+		.characteristic-icon{
+			width: 40px;
+			height: 30px;
+			margin-right: 15px;
+		}
+	}
+
+	&.i-10{
+		.characteristic-text{
+			margin-top: 4px;
+		}
+	}
+}
+
+.modal-time {
+  	margin-bottom: 0px;
+}
+
+//==================== modal - text
+.modal-text-block {
+  	margin-top: 0px;
+}
+
+//==================== modal - success
+.si-success-modal {
+	@extend .si-modal;
+
+	strong {
+		display: block;
+	}
+}
+
+.si-success-modal-title {
+  	@extend .modal-form-title !optional;
+}
+
+.success-time {
+  	@extend .modal-time !optional;
+}
+
+//==================== message
+.si-page-message-overlay {
+	@include general-transition;
+	@include abs-center-fixed;
+	display: block;
+	visibility: hidden;
+	z-index: 299;
+	background: transparentize(#000, .2);
+	transition-duration: 0.5s;
+
+	&.show {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.si-page-message {
+	@include general-transition;
+	@include abs-center-fixed;
+	transition-duration: 0.5s;
+	width: 101%;
+	height: 0;
+	color: #fff;
+	background: $accent-color;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -5;
+	box-shadow: 0 0 10px #000;
+
+	&.show {
+		height: 200px;
+		opacity: 1;
+		visibility: visible;
+		z-index: 300;
+	}
+}
+
+.si-page-message-inner {
+	@include general-transition;
+	font-size: 30px;
+	line-height: 36px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	transition-duration: 0.5s;
+	opacity: 0;
+	position: relative;
+
+	&.show {
+		opacity: 1;
+	}
+
+	.centered {
+		display: table;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.si-page-message-text {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
