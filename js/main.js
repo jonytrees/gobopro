@@ -157,12 +157,6 @@ jQuery(function ($) {
                 'client_phone': 'Укажите ваш телефон',
                 'client_mail': 'Укажите ваш e-mail'
             },
-            'checkExtra': function (form) {
-                if (!$(form).find('.form-agree-check').hasClass('checked')) {
-                    SIPageMessages.show('Для отправки формы вы должны согласиться на обработку персональных данных.');
-                    return false;
-                }
-            },
             'sendSuccess': function (res) {
                 //grecaptcha.reset(recaptcha);
                 //yaCounter.reachGoal('target' + res.id);
@@ -186,6 +180,7 @@ jQuery(function ($) {
 
         // Init modals
         SIModals.attachModal('.open-characteristic-modal', '.characteristic-modal', {'.send-extra': 'extra'});
+        SIModals.attachModal('.open-project-modal', '.project-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-text-modal', '.text-modal', false, function () {
             return '.text-modal-' + $(this).data('id');
         });
@@ -256,6 +251,30 @@ jQuery(function ($) {
         });
 	}
 
+    if($('html').find('.place-slider-holder')){
+        var placeMobileSlider = new Swiper('.place-mobile-slider', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.place-next',
+                prevEl: '.place-prev',
+            },
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            on: {
+                slideChange: function() {
+                    $.ionSound.play('wuf-1');
+                }
+            }
+        });
+    }
+
     if($('html').find('.logo-slider-holder')){
         var logoSlider = new Swiper('.logo-slider', {
             slidesPerView: 7,
@@ -267,6 +286,70 @@ jQuery(function ($) {
             navigation: {
                 nextEl: '.logo-next',
                 prevEl: '.logo-prev',
+            },
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            on: {
+                slideChange: function() {
+                    $.ionSound.play('wuf-1');
+                }
+            }
+        });
+    }
+
+    if($('html').find('.logo-slider-holder')){
+        var logoMobileSlider = new Swiper('.logo-mobile-slider', {
+            slidesPerView: 4,
+            spaceBetween: 0,
+            pagination: {
+                el: '.logo-mobile',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.logo-next',
+                prevEl: '.logo-prev',
+            },
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            on: {
+                slideChange: function() {
+                    $.ionSound.play('wuf-1');
+                }
+            }
+        });
+    }
+
+    if($('html').find('.sertificate-slider-holder')){
+        var sertificateSlider = new Swiper('.sertificate-slider', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.sertificate-next',
+                prevEl: '.sertificate-prev',
+            },
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            on: {
+                slideChange: function() {
+                    $.ionSound.play('wuf-1');
+                }
+            }
+        });
+    }
+
+    if($('html').find('.review-slider-holder')){
+        var sertificateSlider = new Swiper('.review-slider', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.review-next',
+                prevEl: '.review-prev',
             },
             loop: true,
             autoplay: {

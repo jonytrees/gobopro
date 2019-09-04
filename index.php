@@ -101,10 +101,10 @@ $image = SI_CurrentPageImage();
                 <!-- Phone block -->
                 <div class="col-2-3">
                     <div class="si-phone">
-                        <a href="mailto:info@gobopro-x55.ru" class="mail-link">info@gobopro-x55.ru</a>
+                        <a href="mailto:info@gobopro-x55.ru" class="mail-link hidden-xs">info@gobopro-x55.ru</a>
                         <a href="tel:+74997558887" class="phone-link">8 499 755-888-7</a>
                     </div>
-                    <a href="#" class="open-phone-modal consult" data-extra="1"><span>Заказать консультацию</span></a>
+                    <a href="#" class="open-project-modal consult" data-extra="1"><span>Заказать консультацию</span></a>
                     <div class="nav-block">
                         <div class="show-menu second-screen-block">
                             <span class="icon-sandwich"></span>
@@ -134,9 +134,7 @@ $image = SI_CurrentPageImage();
     <!--===================================================== section heading -->
     <section class="section-heading" id="heading">
         <div class="container">
-            <div class="header-img">
-                <img src="images/header-img.png" alt=" ">
-            </div>
+            <div class="header-img hidden-xs"></div>
 
             <h1>
                 GoboPro X55 <br>
@@ -149,7 +147,74 @@ $image = SI_CurrentPageImage();
                 рекламы
             </div>
 
-            <a href="#" class="btn gradient-button">
+
+            <div class="hidden-xs">
+                <a href="#" class="btn open-project-modal gradient-button">
+                    Заказать проектор
+                </a>
+
+                <a href="images/procation/procation-1.png" class="procation" data-fancybox="group">
+                    Примеры проекций
+                </a>
+                <a href="images/procation/procation-2.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-3.jpg" data-fancybox="group"></a>
+                <a href="images/procation/procation-4.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-5.jpg" data-fancybox="group"></a>
+                <a href="images/procation/procation-6.jpeg" data-fancybox="group"></a>
+                <a href="images/procation/procation-7.jpg" data-fancybox="group"></a>
+                <a href="images/procation/procation-8.jpeg" data-fancybox="group"></a>
+                <a href="images/procation/procation-9.jpg" data-fancybox="group"></a>
+                <a href="images/procation/procation-10.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-11.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-12.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-13.jpg" data-fancybox="group"></a>
+
+                <div class="wrapper-desc">
+                    <div class="desc-block">
+                        <div class="title">
+                            до 55 м
+                        </div>
+                        <span>
+                        расстояние
+                    </span>
+                    </div>
+                    <div class="desc-block">
+                        <div class="title">
+                            55 Вт
+                        </div>
+                        <span>
+                        мощность
+                    </span>
+                    </div>
+                    <div class="desc-block">
+                        <div class="title">
+                            до -40 °c
+                        </div>
+                        <span>
+                       гарантированно работает
+                    </span>
+                    </div>
+                    <div class="desc-block">
+                        <div class="title">
+                            1 год
+
+                        </div>
+                        <span>
+                      гарантии
+                    </span>
+                    </div>
+                </div>
+                <p class="last open-characteristic-modal">
+                    полные характеристики
+                </p>
+            </div>
+
+        </div>
+
+        <div class="header-img visible-xs"></div>
+
+        <div class="container margin-top visible-xs">
+            <a href="#" class="btn open-project-modal gradient-button">
                 Заказать проектор
             </a>
 
@@ -207,16 +272,83 @@ $image = SI_CurrentPageImage();
             <p class="last open-characteristic-modal">
                 полные характеристики
             </p>
-
         </div>
     </section>
 
     <!--===================================================== section sub_header -->
     <section class="section-sub_header" id="sub_header">
-        <div class="wrapper-place-slider">
+
+        <div class="wrapper-place-slider hidden-xs">
 
             <!-- Swiper -->
             <div class="swiper-container place-slider">
+                <div class="swiper-wrapper">
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-1"></div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-2"></div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-3"></div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-4"></div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-5"></div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-6"></div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-7"></div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-8"></div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-9"></div>
+                    </div>
+
+                    <!-- single slide -->
+                    <div class="swiper-slide">
+                        <div class="place-wrapper i-10"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add Arrows -->
+            <div class="swiper-button-next place-next">
+                <img src="images/left-icon.png" alt=" ">
+            </div>
+            <div class="swiper-button-prev place-prev">
+                <img src="images/right-icon.png" alt=" ">
+            </div>
+        </div>
+
+        <div class="wrapper-place-slider visible-xs">
+
+            <!-- Swiper -->
+            <div class="swiper-container place-mobile-slider">
                 <div class="swiper-wrapper">
 
                     <!-- single slide -->
@@ -289,7 +421,7 @@ $image = SI_CurrentPageImage();
             <div class="project-text">
                 Проектор GoboPro X55 подходит для 99% способов применения: от привлечения пешеходного трафика и праздников до организации знаков безопасности на производствах. Он лёгок в монтаже и смене изображений, не требует специальной настройки, оборудования или навыков для своей работы.
             </div>
-            <div class="wrapper-logo-slider">
+            <div class="wrapper-logo-slider hidden-xs">
 
                 <!-- Swiper -->
                 <div class="swiper-container logo-slider">
@@ -357,6 +489,75 @@ $image = SI_CurrentPageImage();
                     <img src="images/left-icon-sldier.png" alt=" ">
                 </div>
             </div>
+
+            <div class="wrapper-logo-slider visible-xs">
+
+                <!-- Swiper -->
+                <div class="swiper-container logo-mobile-slider">
+                    <div class="swiper-wrapper">
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-1">
+                                <img data-src="images/logos/slide-logo-1.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-2">
+                                <img data-src="images/logos/slide-logo-2.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-3">
+                                <img data-src="images/logos/slide-logo-3.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-4">
+                                <img data-src="images/logos/slide-logo-4.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-5">
+                                <img data-src="images/logos/slide-logo-5.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-6">
+                                <img data-src="images/logos/slide-logo-6.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo-7.png" alt=" ">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-pagination logo-pagination logo-mobile"></div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next logo-next">
+                    <img src="images/right-icon-sldier.png" alt=" ">
+                </div>
+                <div class="swiper-button-prev logo-prev">
+                    <img src="images/left-icon-sldier.png" alt=" ">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -404,7 +605,7 @@ $image = SI_CurrentPageImage();
             </div>
 
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1">
                     <div class="under-block">
                         <div class="under-img">
                             <div class="img-1">
@@ -417,7 +618,7 @@ $image = SI_CurrentPageImage();
                         </div>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1">
                     <div class="under-block">
                         <div class="under-img">
                             <div class="img-2">
@@ -432,7 +633,7 @@ $image = SI_CurrentPageImage();
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1">
                     <div class="under-block">
                         <div class="under-img">
                             <div class="img-3">
@@ -445,8 +646,8 @@ $image = SI_CurrentPageImage();
                         </div>
                     </div>
                 </div>
-                <div class="col-1-2">
-                    <div class="under-block">
+                <div class="col-1-2 col-xs-1">
+                    <div class="under-block margin-zero">
                         <div class="under-img">
                             <div class="img-4">
                                 <?php include('svg/rotate.svg'); ?>
@@ -588,7 +789,7 @@ $image = SI_CurrentPageImage();
             </div>
 
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1">
                     <div class="what-block">
                         <div class="what-img i-1">
                             <?php include('svg/history-button.svg'); ?>
@@ -603,7 +804,7 @@ $image = SI_CurrentPageImage();
                         </div>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1">
                     <div class="what-block">
                         <div class="what-img i-1">
                             <?php include('svg/rgb.svg'); ?>
@@ -620,7 +821,7 @@ $image = SI_CurrentPageImage();
                 </div>
             </div>
             <div class="row">
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1">
                     <div class="what-block">
                         <div class="what-img i-1">
                             <?php include('svg/drag.svg'); ?>
@@ -635,7 +836,7 @@ $image = SI_CurrentPageImage();
                         </div>
                     </div>
                 </div>
-                <div class="col-1-2">
+                <div class="col-1-2 col-xs-1">
                     <div class="what-block">
                         <div class="what-img i-1">
                             <?php include('svg/spotlight.svg'); ?>
@@ -675,13 +876,13 @@ $image = SI_CurrentPageImage();
     <section class="section-free" id="free">
         <div class="container">
             <div class="row">
-                <div class="col-2-3">
+                <div class="col-2-3 col-xs-1">
                     <h3>
                         Бесплатно подготовим для вас<br> визуализацию будущей проекции<br> под ваш макет.
                     </h3>
                 </div>
-                <div class="col-1-3">
-                    <a href="#" class="btn border-gradient">
+                <div class="col-1-3 col-xs-1">
+                    <a href="#" class="btn open-project-modal border-gradient">
                         <span>Заказать проектор</span>
                     </a>
                 </div>
@@ -692,14 +893,18 @@ $image = SI_CurrentPageImage();
     <!--===================================================== section quality -->
     <section class="section-quality" id="quality">
         <div class="container">
+
+            <div class="title visible-xs">
+                Гарантируем качество
+            </div>
             <div class="row">
-                <div class="col-1-3">
+                <div class="col-1-3 col-xs-1">
                     <div class="years">
                         1 год
                     </div>
                 </div>
-                <div class="col-2-3">
-                    <div class="title">
+                <div class="col-2-3 col-xs-1">
+                    <div class="title hidden-xs">
                         Гарантируем качество
                     </div>
 
@@ -722,7 +927,7 @@ $image = SI_CurrentPageImage();
     <section class="section-free" id="free-second">
         <div class="container">
             <div class="row">
-                <div class="col-2-3">
+                <div class="col-2-3 col-xs-1">
                     <h3 class="second">
                         Мы проверяем работоспособность и<br>
                         качество проекции каждого проектора.<br>
@@ -730,8 +935,8 @@ $image = SI_CurrentPageImage();
                         фото-отчёт и пришлём его вам.
                     </h3>
                 </div>
-                <div class="col-1-3">
-                    <a href="#" class="btn border-gradient">
+                <div class="col-1-3 col-xs-1">
+                    <a href="#" class="btn open-project-modal border-gradient">
                         <span>Заказать проектор</span>
                     </a>
                 </div>
@@ -748,7 +953,7 @@ $image = SI_CurrentPageImage();
                 Сертификаты
             </h3>
 
-            <div class="row">
+            <div class="row hidden-xs">
                 <div class="col-1-2">
                     <a class="img-sertificate" href="images/sertificate/sertificate-1.jpg" data-fancybox="sertificate">
                         <img data-src="images/sertificate/sertificate-1.jpg" alt=" ">
@@ -760,6 +965,38 @@ $image = SI_CurrentPageImage();
                     </a>
                 </div>
 
+            </div>
+
+            <div class="wrapper-sertificate-slider visible-xs">
+
+                <!-- Swiper -->
+                <div class="swiper-container sertificate-slider">
+                    <div class="swiper-wrapper">
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <a class="img-sertificate" href="images/sertificate/sertificate-1.jpg" data-fancybox="sertificate1">
+                                <img data-src="images/sertificate/sertificate-1.jpg" alt=" ">
+                            </a>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <a class="img-sertificate" href="images/sertificate/sertificate-2.jpg" data-fancybox="sertificate1">
+                                <img data-src="images/sertificate/sertificate-2.jpg" alt=" ">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next sertificate-next">
+                    <img src="images/left-icon.png" alt=" ">
+                </div>
+                <div class="swiper-button-prev sertificate-prev">
+                    <img src="images/right-icon.png" alt=" ">
+                </div>
             </div>
 
             <img src="images/sticker.png" alt=" " class="sticker">
@@ -871,7 +1108,7 @@ $image = SI_CurrentPageImage();
             <h2>
                 Отзывы
             </h2>
-            <div class="row">
+            <div class="row hidden-xs">
                 <div class="col-1-3">
                     <a class="img-sertificate" href="images/sertificate.png" data-fancybox="product">
                         <img data-src="images/sertificate.png" alt=" ">
@@ -886,6 +1123,38 @@ $image = SI_CurrentPageImage();
                     <a class="img-sertificate" href="images/sertificate.png" data-fancybox="product">
                         <img data-src="images/sertificate.png" alt=" ">
                     </a>
+                </div>
+            </div>
+
+            <div class="wrapper-review-slider visible-xs">
+
+                <!-- Swiper -->
+                <div class="swiper-container review-slider">
+                    <div class="swiper-wrapper">
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <a class="img-sertificate i-2" href="images/sertificate.png" data-fancybox="product">
+                                <img data-src="images/sertificate.png" alt=" ">
+                            </a>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <a class="img-sertificate i-2" href="images/sertificate.png" data-fancybox="product">
+                                <img data-src="images/sertificate.png" alt=" ">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next review-next">
+                    <img src="images/left-icon.png" alt=" ">
+                </div>
+                <div class="swiper-button-prev review-prev">
+                    <img src="images/right-icon.png" alt=" ">
                 </div>
             </div>
         </div>
@@ -908,15 +1177,15 @@ $image = SI_CurrentPageImage();
 
             <form method="post" class="send-form" autocomplete="off">
                 <div class="row">
-                    <div class="col-1-3">
+                    <div class="col-1-3 col-xs-1">
                         <input type="tel" name="client_name" class="client-name" placeholder="Ваше телефон*">
                     </div>
 
-                    <div class="col-1-3">
+                    <div class="col-1-3 col-xs-1">
                         <input type="email" name="client_phone" class="client-phone" placeholder="Ваш e-mail*">
                     </div>
 
-                    <div class="col-1-3">
+                    <div class="col-1-3 col-xs-1">
                         <div class="btn-holder">
                             <button type="submit" class="btn border-gradient"><span>Заказать консультацию <div class="agree">Я принимаю условия передачи информации</div></span> </button>
                             <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
@@ -945,7 +1214,7 @@ $image = SI_CurrentPageImage();
                        <a href="#" class="logo">
                            <img src="images/logo.png" alt=" ">
                        </a>
-                       <div class="logo-text">
+                       <div class="logo-text hidden-xs">
                            <div class="title">
                                ООО "ГобоПро"
                            </div>
@@ -963,9 +1232,9 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 align-right">
                     <div class="si-phone">
                         <a href="tel:+74997558887" class="phone-link dark">8 499 755 888 7</a>
-                        <a href="#" class="btn open-phone-modal consult" data-extra="2"><span>Заказать консультацию</span></a>
+                        <a href="#" class="btn open-project-modal consult" data-extra="2"><span>Заказать консультацию</span></a>
                     </div>
-                    <a href="mailto:info@gobopro-x55.ru" class="mail-link dark">info@gobopro-x55.ru</a>
+                    <a href="mailto:info@gobopro-x55.ru" class="mail-link hidden-xs dark">info@gobopro-x55.ru</a>
                     <a href="#" class="data open-text-modal" data-id="1">
                         Условия персональных данных
                     </a>
@@ -1005,19 +1274,21 @@ $image = SI_CurrentPageImage();
         <div class="si-success-modal si-success-modal-1">
             <a href="#" class="si-close"></a>
 
-            <div class="modal-container align-center">
+            <div class="modal-container dark-block align-center">
 
                 <div class="si-success-modal-title">
                     Спасибо!
                 </div>
 
                 <div class="success-time">
-                    Наш менеджер свяжется с вами в течение 15 минут
+                    Ваша заявка отправлена
                 </div>
 
-                <p>
-                    <strong>Время работы отдела продаж:</strong>
-                    пн-пт с 10.00 до 20.00 (по Москве)
+                <div class="line"></div>
+
+                <p class="success-last">
+                    Наш менеджер свяжется с Вами
+                    в ближайшее время.
                 </p>
 
             </div>
@@ -1136,31 +1407,27 @@ $image = SI_CurrentPageImage();
         </div>
 
         <!--============================================== phone modal -->
-        <div class="si-modal phone-modal">
+        <div class="si-modal project-modal">
             <a href="#" class="si-close"></a>
 
-            <div class="modal-container align-center">
+            <div class="modal-container dark-block align-center">
 
                 <div class="modal-form-title">
                     Закажите консультацию
                 </div>
 
                 <div class="modal-time">
-                    Ответ в течение 15 минут
+                    Оставьте заявку и наш менеджер свяжется с Вами в ближайшее время
                 </div>
 
                 <form method="post" class="send-form" autocomplete="off">
                     <div class="row">
-                        <div class="col-1-2">
-                            <input type="text" name="client_name" class="client-name" placeholder="Ваше имя">
-                        </div>
 
-                        <div class="col-1-2">
-                            <input type="tel" name="client_phone" class="client-phone" placeholder="Ваш телефон">
-                        </div>
+                        <input type="text" name="client_name" class="client-name" placeholder="Ваше имя*">
+
+                        <input type="tel" name="client_phone" class="client-phone" placeholder="Ваш телефон*">
+
                     </div>
-
-                    <textarea name="client_message" class="client-message" placeholder="Ваш вопрос"></textarea>
 
                     <input type="hidden" name="send_type" class="send-type" value="1">
                     <input type="hidden" name="send_extra" class="send-extra" value="1">
@@ -1168,21 +1435,10 @@ $image = SI_CurrentPageImage();
                     <?php //Поле выше для защиты формы от спам-ботов ?>
 
                     <div class="btn-holder">
-                        <button type="submit" class="btn">Позвоните мне</button>
+                        <button type="submit" class="btn border-gradient">Заказать консультацию <div class="agree">Я принимаю условия передачи информации</div></button>
                         <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
                     </div>
 
-                    <!-- Agreement -->
-                    <div class="form-agree align-left">
-                        <label class="checkbox-label form-agree-check checked">
-                            <input type="checkbox" checked>
-                            Нажимая кнопку "ПОЗВОНИТЕ МНЕ", я&nbsp;даю своё согласие на&nbsp;обработку
-                            моих персональных данных в&nbsp;соответствии с&nbsp;Федеральным законом
-                            от&nbsp;27.07.2006&nbsp;года №152&#8209;ФЗ "О&nbsp;персональных данных",
-                            на&nbsp;условиях и&nbsp;для&nbsp;целей, определённых
-                            в&nbsp;Согласии на&nbsp;обработку персональных данных.
-                        </label>
-                    </div>
                 </form>
 
             </div>

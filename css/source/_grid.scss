@@ -146,6 +146,11 @@ $pad: 10px;
 	  @include grid-offset(0, $pad);
 	  width: 100%;
 	}
+
+	.col-xs-1-2 {
+		@include grid-offset(0, $pad);
+		width: 50%;
+	}
   
 	.col-xs-5-6 {
 	  width: 83.33%;

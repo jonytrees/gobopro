@@ -330,7 +330,10 @@
   cursor: pointer !important;
   z-index: 110;
 
-
+  @include mobile{
+    top: 60px;
+    right: 10px;
+  }
 
   &.active{
     top: 50px;

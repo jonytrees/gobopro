@@ -23,6 +23,10 @@ img[data-src] {
 	top: 50%;
 	z-index: 150;
 
+	@include mobile{
+		display: none;
+	}
+
 	.action-title{
 		display: block;
 		width: 100%;
@@ -117,6 +121,10 @@ h2{
 	background-size: cover;
 	overflow: hidden;
 
+	@include mobile{
+		padding-bottom: 115px;
+	}
+
 
 	&:after{
 		content: '';
@@ -128,6 +136,11 @@ h2{
 		background-size: cover;
 		top: -90px;
 		left: 0;
+
+		@include mobile{
+			top: 500px;
+			left: -55%;
+		}
 	}
 
 	.header-img{
@@ -140,6 +153,16 @@ h2{
 		width: 1253px;
 		height: 1073px;
 		z-index: -1;
+
+		@include mobile{
+			display: block;
+			position: relative;
+			top: 0;
+			right: 0;
+			width: 100%;
+			height: 732px;
+			background: url("../images/header-img-mobile.png") 50% 50% no-repeat;
+		}
 	}
 
 	h1{
@@ -155,6 +178,12 @@ h2{
 		font: 300 30px/36px 'Helvetica';
 		color: #d9d9d9;
 		margin-bottom: 25px;
+	}
+
+	.margin-top{
+		@include mobile{
+			margin-top: -250px;
+		}
 	}
 
 	.gradient-button{
@@ -217,6 +246,11 @@ h2{
 			margin-right: 130px;
 			vertical-align: top;
 
+			@include mobile{
+				margin-right: 70px;
+				margin-bottom: 40px;
+			}
+
 			.title{
 				color: #ffffff;
 				font: 300 45px/45px 'Helvetica';
@@ -246,6 +280,10 @@ h2{
 		position: relative;
 		margin-left: 0;
 		cursor: pointer;
+
+		@include mobile{
+			margin-top: 30px;
+		}
 
 
 		&:after{
@@ -343,10 +381,18 @@ h2{
 
 		.place-next{
 			right: 47%;
+
+			@include mobile{
+				right: 42%;
+			}
 		}
 
 		.place-prev{
 			left: 47%;
+
+			@include mobile{
+				left: 42%;
+			}
 		}
 	}
 }
@@ -358,6 +404,10 @@ h2{
 	background-size: cover;
 	padding-top: 120px;
 	padding-bottom: 235px;
+
+	@include mobile{
+		padding-top: 115px;
+	}
 
 	.line{
 		width: 90%;
@@ -372,6 +422,11 @@ h2{
 		text-align: center;
 		font: 400 26px/36px 'Helvetica';
 		color: #d9d9d9;
+
+		@include mobile{
+			font: 400 21px/30px 'Helvetica';
+			margin: 0 auto 47px;
+		}
 	}
 
 	.wrapper-logo-slider{
@@ -432,10 +487,18 @@ h2{
 
 		.logo-next{
 			right: 33%;
+
+			@include mobile{
+				right: 23%;
+			}
 		}
 
 		.logo-prev{
 			left: 33%;
+
+			@include mobile{
+				left: 23%;
+			}
 		}
 
 		.logo-pagination{
@@ -450,9 +513,18 @@ h2{
 	padding-bottom: 130px;
 	background-color: #17171d;
 
+	@include mobile{
+		padding-top: 108px;
+		padding-bottom: 80px;
+	}
+
 	h2{
 		margin-bottom: 115px;
 		font: 700 48px/48px 'Myriad';
+
+		@include mobile{
+			margin-bottom: 60px;
+		}
 	}
 
 	.install-wrapper{
@@ -461,12 +533,22 @@ h2{
 		justify-content: space-between;
 		margin-bottom: 130px;
 
+		@include mobile{
+			display: block;
+			margin-bottom: 95px;
+		}
+
 		.install-block{
 			width: 33%;
 			display: inline-block;
 			position: relative;
 			padding-right: 57px;
 			padding-left: 55px;
+
+			@include mobile{
+				margin-bottom: 85px;
+			}
+
 
 			&:after{
 				content: '';
@@ -476,17 +558,31 @@ h2{
 				background: rgba(255, 255, 255, 0.21);
 				top: 45px;
 				right: 0;
+
+				@include mobile{
+					display: none;
+				}
 			}
 
 			&:nth-child(1){
 				width: 33%;
 				padding-left: 0;
+
+				@include mobile{
+					width: 65%;
+				}
 			}
 
 			&:nth-child(2){
 				width: 36%;
 				padding-right: 30px;
 				padding-left: 45px;
+
+				@include mobile{
+					width: 65%;
+					padding-left: 0;
+					padding-right: 0;
+				}
 			}
 
 			&:nth-child(3){
@@ -494,11 +590,18 @@ h2{
 				padding-right: 0;
 				padding-left: 40px;
 
+				@include mobile{
+					width: 65%;
+					padding-left: 0;
+					margin-bottom: 0;
+				}
+
 
 				&:after{
 					display: none;
 				}
 			}
+
 
 			.number{
 				color: #5999d3;
@@ -524,6 +627,12 @@ h2{
 		display: block;
 		width: 100%;
 		margin-bottom: 55px;
+
+		&.margin-zero{
+			@include mobile{
+				margin-bottom: 0;
+			}
+		}
 
       &:hover{
         .under-img{
@@ -595,9 +704,17 @@ h2{
 	background-size: cover;
 	padding-top: 186px;
 
+	@include mobile{
+		padding-top: 100px;
+	}
+
 	h2{
 		margin-bottom: 95px;
 		font: 700 40px/40px 'Myriad';
+
+		@include mobile{
+			margin-bottom: 70px;
+		}
 	}
 
 	.nav-tabs{
@@ -609,6 +726,10 @@ h2{
 		padding-bottom: 22px;
 		border-bottom: 1px solid #3a3c40;
 
+		@include mobile{
+			width: 100%;
+		}
+
 		.tab-link{
 			display: inline-block;
 			color: #9f9f9f;
@@ -617,6 +738,10 @@ h2{
 			text-align: center;
 			padding-left: 23px;
 			padding-right: 23px;
+
+			@include mobile{
+				font: 300 17px/17px 'Myriad';
+			}
 
 			&.active{
 				color: #ffffff;
@@ -640,6 +765,10 @@ h2{
 		position: relative;
 		display: block;
 		margin: 0 auto;
+
+		@include mobile{
+			height: 550px;
+		}
 
 		&:hover{
 			.play-icon{
@@ -692,6 +821,10 @@ h2{
 	padding-top: 180px;
 	background-color: #17171d;
 
+	@include mobile{
+		padding-top: 160px;
+	}
+
 	h2{
 		margin-bottom: 45px;
 		font: 700 40px/40px 'Myriad';
@@ -704,6 +837,10 @@ h2{
 		margin: 0 auto 80px;
 		font: 300 26px/36px 'Helvetica';
 		color: #d9d9d9;
+
+		@include mobile{
+			font: 300 22px/30px 'Helvetica';
+		}
 	}
 
 	.wrapper-what-slider{
@@ -721,6 +858,11 @@ h2{
 				height: 581px;
 				display: block;
 				margin: 0 auto;
+
+				@include mobile{
+					width: 70%;
+					height: auto;
+				}
 			}
 		}
 
@@ -750,6 +892,10 @@ h2{
 		margin-top: 50px;
 		margin-bottom: 18px;
 		margin-left: 60px;
+
+		@include mobile{
+			margin-left: 0;
+		}
 
 		&:hover{
 			.what-img{
@@ -807,6 +953,10 @@ h2{
 		display: block;
 		margin: 100px auto 0;
 
+		@include mobile{
+			width: 100%;
+		}
+
       &:hover{
         .present-img{
           @extend .buzz-out;
@@ -817,6 +967,10 @@ h2{
 			display: inline-block;
 			width: 420px;
 			vertical-align: top;
+
+			@include mobile{
+				display: block;
+			}
 
 			.present-img{
 				display: inline-block;
@@ -853,6 +1007,11 @@ h2{
 			position: relative;
 			float: right;
 
+			@include mobile{
+				display: block;
+				float: none;
+			}
+
 			&:after{
 				content: '';
 				position: absolute;
@@ -886,9 +1045,17 @@ h2{
 	background-color: #17171d;
 	padding-top: 125px;
 
+	@include mobile{
+		padding-top: 100px;
+	}
+
 	.container{
 		background-color: #121217;
 		padding: 65px 60px 60px;
+
+		@include mobile{
+			padding: 70px 30px 65px;
+		}
 	}
 
 	h3{
@@ -897,6 +1064,10 @@ h2{
 		color: #d9d9d9;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+
+		@include mobile{
+			font: 300 36px/48px 'Helvetica';
+		}
 	}
 
 	.second{
@@ -905,11 +1076,20 @@ h2{
 		color: #d9d9d9;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+
+		@include mobile{
+			font: 300 36px/48px 'Helvetica';
+		}
 	}
 
 	.border-gradient{
 		margin-top: 40px;
 		float: right;
+
+		@include mobile{
+			margin-top: 30px;
+			float: left;
+		}
 	}
 }
 
@@ -919,6 +1099,10 @@ h2{
 	padding-top: 190px;
 	background-color: #17171d;
 
+	@include mobile{
+		padding-top: 130px;
+	}
+
 	.years{
 		background: linear-gradient(to left, #b943df 0%, #00c4ff 150%);
 		font: 200 135px/135px 'Helvetica';
@@ -926,12 +1110,22 @@ h2{
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		margin-top: 133px;
+
+		@include mobile{
+			margin-top: 0;
+			margin-bottom: 40px;
+		}
 	}
 
 	.title{
 		font: 700 40px/40px 'Myriad';
 		display: block;
 		margin-bottom: 100px;
+
+		@include mobile{
+			text-align: center;
+			margin-bottom: 80px;
+		}
 	}
 
 	.sub_title{
@@ -939,6 +1133,10 @@ h2{
 		display: block;
 		margin-bottom: 29px;
 		margin-left: 24px;
+
+		@include mobile{
+			margin-left: 0;
+		}
 	}
 
 	.line{
@@ -948,6 +1146,10 @@ h2{
 		display: block;
 		margin-bottom: 30px;
 		margin-left: 24px;
+
+		@include mobile{
+			margin-left: 0;
+		}
 	}
 
 	.text{
@@ -959,9 +1161,19 @@ h2{
 		font: 300 25px/25px 'Myriad';
 		margin-left: 24px;
 
+		@include mobile{
+			width: 50%;
+			margin-bottom: 35px;
+			margin-left: 0;
+		}
+
 		&:nth-child(2){
 			margin-right: 0;
 			margin-left: 0;
+
+			@include mobile{
+				margin-bottom: 0;
+			}
 		}
 	}
 }
@@ -971,6 +1183,10 @@ h2{
 	padding-top: 140px;
 	padding-bottom: 30px;
 	background-color: #16161c;
+
+	@include mobile{
+		padding-top: 135px;
+	}
 
 	h3{
 		font: 700 38px/38px 'Myriad';
@@ -992,6 +1208,25 @@ h2{
 		display: block;
 		margin: 70px auto 0;
 	}
+
+	.sertificate-next,
+	.sertificate-prev{
+		top: 45%;
+		display: block;
+
+		svg{
+			width: 32px;
+			height: 56px;
+		}
+	}
+
+	.sertificate-next{
+		right: 5%;
+	}
+
+	.sertificate-prev{
+		left: 5%;
+	}
 }
 
 //==================== section-compare
@@ -1002,8 +1237,17 @@ h2{
 	height: 970px;
 	padding-top: 240px;
 
+	@include mobile{
+		height: 655px;
+		padding-top: 150px;
+	}
+
 	h2{
 		font: 600 48px/48px 'Myriad';
+
+		@include mobile{
+			font: 600 40px/40px 'Myriad';
+		}
 	}
 
 
@@ -1013,6 +1257,10 @@ h2{
 		position: relative;
 		display: block;
 		margin: 0 auto;
+
+		@include mobile{
+			height: 375px;
+		}
 
 		&:hover{
 			.play-icon{
@@ -1068,8 +1316,16 @@ h2{
 	padding-bottom: 200px;
 	background-color: #17171c;
 
+	@include mobile{
+		padding-top: 160px;
+	}
+
 	h2{
 		margin-bottom: 130px;
+
+		@include mobile{
+			margin-bottom: 100px;
+		}
 	}
 
 	.question-item{
@@ -1108,6 +1364,10 @@ h2{
 				font: 700 26px/26px 'Helvetica';
 				vertical-align: top;
 				margin-top: 20px;
+
+				@include mobile{
+					width: 85%;
+				}
 			}
 		}
 
@@ -1117,6 +1377,10 @@ h2{
 			color: #6a6b74;
 			font: 300 18px/24px 'Myriad';
 			margin-left: 57px;
+
+			@include mobile{
+				width: 85%;
+			}
 		}
 
 		&.active{
@@ -1160,6 +1424,25 @@ h2{
 			float: right;
 		}
 	}
+
+	.review-next,
+	.review-prev{
+		top: 60%;
+		display: block;
+
+		svg{
+			width: 32px;
+			height: 56px;
+		}
+	}
+
+	.review-next{
+		right: 5%;
+	}
+
+	.review-prev{
+		left: 5%;
+	}
 }
 
 
@@ -1167,6 +1450,12 @@ h2{
 .section-form{
 	padding-top: 244px;
 	padding-bottom: 245px;
+
+	@include mobile{
+		padding-top: 80px;
+		padding-bottom: 215px;
+	}
+
 
 	.after-block{
 		position: absolute;
@@ -1176,6 +1465,11 @@ h2{
 		top: -78px;
 		right: 97px;
 		z-index: -1;
+
+		@include mobile{
+			right: -43%;
+			height: 694px;
+		}
 	}
 }
 
@@ -1184,6 +1478,10 @@ h2{
 	background-color: rgba(58, 58, 58, 0.64);
 	padding-top: 31px;
 	padding-bottom: 40px;
+
+	@include mobile{
+		padding-bottom: 30px;
+	}
 
 	.brand{
 		text-align: center;

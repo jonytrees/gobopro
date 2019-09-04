@@ -20,6 +20,21 @@ $desktop-width: 1280px;
   }
 }
 
+.hidden-xs {
+
+  @include mobile {
+    display: none !important;
+  }
+}
+
+.visible-xs {
+  display: none !important;
+
+  @include mobile {
+    display: block !important;
+  }
+}
+
 //$small-mobile-width: 580px;
 //$mobile-width: 900px;
 //$mobile-height: 660px;

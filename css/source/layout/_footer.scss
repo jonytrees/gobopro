@@ -3,6 +3,10 @@
 	padding: 67px 0 95px;
 	background-color: #121217;
 
+	@include mobile{
+		padding: 65px 0 55px;
+	}
+
 	.logo-block{
 		display: block;
 		margin-top: 15px;
@@ -48,6 +52,11 @@
 			&:after{
 				@extend .buzz-out;
 			}
+		}
+
+		@include mobile{
+			margin-bottom: 35px;
+			margin-right: 0;
 		}
 
 		&:after{
@@ -130,6 +139,10 @@
 		text-decoration: underline;
 		width: 100%;
 		text-align: right;
+
+		@include mobile{
+			margin-top: 30px;
+		}
 
 		&:hover{
 			text-decoration: none;

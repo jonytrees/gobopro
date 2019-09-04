@@ -40,7 +40,7 @@
 		display: block;
 		margin-bottom: 50px;
 		text-align: left;
-		font: 300 48px/50px 'Myriad';
+		font: 600 48px/50px 'Myriad';
 	}
 
 	p{
@@ -57,6 +57,10 @@
 		border: none !important;
 		border-bottom: 1px solid #fff !important;
 		width: 340px !important;
+
+		@include mobile{
+			margin-bottom: 30px;
+		}
 	}
 
 	.border-gradient{
@@ -64,6 +68,10 @@
 		width: 390px;
 		height: 84px;
 		margin-top: -23px;
+
+		@include mobile{
+			margin-top: 50px;
+		}
 
 		span{
 			width: 386px;

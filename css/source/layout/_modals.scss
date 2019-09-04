@@ -46,7 +46,7 @@ html {
 	@extend .close !optional;
 	position: absolute !important;
 	top: -40px;
-	right: -40px;
+	right: 0;
 }
 
 //==================== modal - basic
@@ -58,9 +58,19 @@ html {
 	position: relative;
 	color: #ffffff;
 	background: #17171d;
-	padding: 65px 60px 65px;
-	width: 1030px;
+	padding: 20px;
+	width: 575px;
 	margin: 80px auto;
+	background-image: -webkit-linear-gradient(left, #b943df 0%, #00c4ff 100%), -webkit-linear-gradient(left, #b943df 0%, #00c4ff 100%);
+	background-image: -moz-linear-gradient(left, #b943df 0%, #00c4ff 100%), -moz-linear-gradient(left, #b943df 0%, #00c4ff 100%);
+	background-image: -o-linear-gradient(left, #b943df 0%, #00c4ff 100%), -o-linear-gradient(left, #b943df 0%, #00c4ff 100%);
+	background-image: linear-gradient(to left, #b943df 0%, #00c4ff 100%), linear-gradient(to left, #b943df 0%, #00c4ff 100%);
+
+	.dark-block{
+		width: 535px;
+		background-color: #17171d;
+		padding: 95px 55px 100px;
+	}
 
 	&.si-visible {
 		@include transform(scale(1));
@@ -73,14 +83,63 @@ html {
 	.btn {
 		min-width: 300px;
 	}
+
+	input{
+		color: #ffffff !important;
+		background-color: transparent !important;
+		font: 200 18px/18px 'Helvetica';
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border: none !important;
+		border-bottom: 1px solid #fff !important;
+		width: 100% !important;
+
+		@include mobile{
+			margin-bottom: 30px;
+		}
+	}
+
+	.border-gradient{
+		text-transform: none;
+		width: 100%;
+		height: 84px;
+		margin-top: 30px;
+		background-image: linear-gradient(to left, #b943df 0%, #00c4ff 100%);
+		color: #fff !important;
+
+		&:hover{
+			@extend .btn-ghost;
+		}
+
+		//span{
+		//	width: 99%;
+		//	height: 80px;
+		//	font: 500 17px/17px 'Helvetica';
+		//	padding-top: 22px;
+		//	background-color: #17171d;
+		//}
+
+		.agree{
+			color: rgba(255, 255, 255, 0.3);
+			display: block;
+			text-align: center;
+			text-transform: none;
+			font: 500 14px/14px 'Helvetica';
+			margin-top: 4px;
+		}
+	}
 }
 
 .modal-form-title {
 	text-align: center;
-	font: 600 48px/48px 'Myriad';
+	font: 400 48px/48px 'Helvetica';
 	display: block;
 	width: 100%;
-  	margin-bottom: 80px;
+  	margin-bottom: 27px;
+}
+
+.characteristic-modal{
+	background: #17171d !important;
 }
 
 .left,
@@ -98,8 +157,17 @@ html {
 	display: block;
 	margin-bottom: 95px;
 
+	@include mobile{
+		margin-bottom: 80px;
+	}
+
 	&.img-1{
 		margin-left: 70px;
+
+		@include mobile{
+			margin-bottom: 40px;
+			margin-left: 0;
+		}
 	}
 }
 
@@ -119,6 +187,10 @@ html {
 		display: inline-block;
 		vertical-align: top;
 		font: 300 21px/24px 'Helvetica';
+
+		@include mobile{
+			width: 69%;
+		}
 	}
 
 	&.i-1{
@@ -170,8 +242,13 @@ html {
 	}
 }
 
+
+
 .modal-time {
-  	margin-bottom: 0px;
+	width: 305px;
+	display: block;
+	margin: 0 auto 30px;
+	font: 400 22px/30px 'Helvetica';
 }
 
 //==================== modal - text
@@ -190,10 +267,31 @@ html {
 
 .si-success-modal-title {
   	@extend .modal-form-title !optional;
+	font: 700 50px/50px 'Helvetica';
+	margin-bottom: 0;
+
 }
 
 .success-time {
   	@extend .modal-time !optional;
+	font: 400 36px/36px 'Helvetica';
+	width: 100%;
+}
+
+.line{
+	width: 58px;
+	height: 5px;
+	background-color: #00a0e1;
+	display: block;
+	margin: 30px auto 24px;
+}
+
+.success-last{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font: 400 24px/29px 'Helvetica';
 }
 
 //==================== message
