@@ -1,7 +1,7 @@
 <?php
 session_start();
 $code_word = 'LP'; // Кодовое слово для идентификации, если указано, то вставляется в начало темы письма
-$email_to = 'e.tabakova@hello-brand.ru'; // Можно несколько, через запятую
+$email_to = 'jonytrees@gmail.com'; // Можно несколько, через запятую
 $email_from = 'no-reply@' . preg_replace('/\/+$/', '', $_SERVER['HTTP_HOST']); // E-mail отправителя
 $geo = true; // Включить определение города по IP? true - да, false - нет
 
@@ -72,6 +72,7 @@ $name = isset($_POST['client_name']) ? $_POST['client_name'] : '';
 $phone = isset($_POST['client_phone']) ? $_POST['client_phone'] : '';
 $mail = isset($_POST['client_mail']) ? $_POST['client_mail'] : '';
 $message = isset($_POST['client_message']) ? $_POST['client_message'] : '';
+$address = isset($_POST['client_address']) ? $_POST['client_address'] : '';
 
 if (empty($name) || empty($phone))
     die(json_encode(array('success' => 0, 'text' => 'Заполните все поля')));
@@ -106,18 +107,35 @@ switch ($type) {
         break;
 
     case 2:
-        $mail_theme = 'Заявка c блока УТП';
-        $text .= 'Заявка c блока УТП';
+        $mail_theme = 'Заказ проектора';
+        $text .= 'Заказ проектора';
 
         switch ($extra) {
             case 1 :
-                $text .= ' №1';
+                $text .= ' с шапки';
                 $code = 1;
                 break;
 
             case 2 :
-                $text .= ' №2';
+                $text .= ' с блока \'Бесплатно подготовим для вас визуализацию\'';
                 $code = 2;
+                break;
+
+            case 3 :
+                $text .= ' с блока \'Мы проверяем работоспособность и качество проекции\'';
+                $code = 3;
+                break;
+        }
+        break;
+
+    case 3:
+        $mail_theme = 'Заказ с блока';
+        $text .= 'Заказ с блока';
+
+        switch ($extra) {
+            case 1 :
+                $text .= ' перед подвалом';
+                $code = 1;
                 break;
         }
         break;
@@ -129,6 +147,7 @@ $params = array(
     'Имя' => $name,
     'Телефон' => $phone,
     'E-mail' => $mail,
+    'Адрес' => $address,
     'Вопрос' => nl2br(htmlspecialchars($message)),
     'Статистическая информация о заявке' => $_POST['si_engine'],
     'UTM-метки' => $_POST['si_utm']

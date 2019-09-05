@@ -104,8 +104,8 @@ $image = SI_CurrentPageImage();
                         <a href="mailto:info@gobopro-x55.ru" class="mail-link hidden-xs">info@gobopro-x55.ru</a>
                         <a href="tel:+74997558887" class="phone-link">8 499 755-888-7</a>
                     </div>
-                    <a href="#" class="open-project-modal consult" data-extra="1"><span>Заказать консультацию</span></a>
-                    <div class="nav-block">
+                    <a href="#" class="open-consult-modal consult" data-extra="1"><span>Заказать консультацию</span></a>
+                    <div class="nav-block hidden-xs">
                         <div class="show-menu second-screen-block">
                             <span class="icon-sandwich"></span>
                         </div>
@@ -113,7 +113,7 @@ $image = SI_CurrentPageImage();
                     </div>
                 </div>
 
-                <div class="global-nav">
+                <div class="global-nav hidden-xs">
                     <div class="pseudo-table">
                         <div class="pseudo-table-cell nav-overlay">
                             <ul class="nav" id="global-menu">
@@ -149,7 +149,7 @@ $image = SI_CurrentPageImage();
 
 
             <div class="hidden-xs">
-                <a href="#" class="btn open-project-modal gradient-button">
+                <a href="#" class="btn open-project-modal gradient-button" data-extra="1">
                     Заказать проектор
                 </a>
 
@@ -214,7 +214,7 @@ $image = SI_CurrentPageImage();
         <div class="header-img visible-xs"></div>
 
         <div class="container margin-top visible-xs">
-            <a href="#" class="btn open-project-modal gradient-button">
+            <a href="#" class="btn open-project-modal gradient-button" data-extra="1">
                 Заказать проектор
             </a>
 
@@ -882,7 +882,7 @@ $image = SI_CurrentPageImage();
                     </h3>
                 </div>
                 <div class="col-1-3 col-xs-1">
-                    <a href="#" class="btn open-project-modal border-gradient">
+                    <a href="#" class="btn open-project-modal border-gradient" data-extra="2">
                         <span>Заказать проектор</span>
                     </a>
                 </div>
@@ -936,7 +936,7 @@ $image = SI_CurrentPageImage();
                     </h3>
                 </div>
                 <div class="col-1-3 col-xs-1">
-                    <a href="#" class="btn open-project-modal border-gradient">
+                    <a href="#" class="btn open-project-modal border-gradient" data-extra="3">
                         <span>Заказать проектор</span>
                     </a>
                 </div>
@@ -1178,11 +1178,11 @@ $image = SI_CurrentPageImage();
             <form method="post" class="send-form" autocomplete="off">
                 <div class="row">
                     <div class="col-1-3 col-xs-1">
-                        <input type="tel" name="client_name" class="client-name" placeholder="Ваше телефон*">
+                        <input type="text" name="client_name" class="client-name" placeholder="Ваше имя*">
                     </div>
 
                     <div class="col-1-3 col-xs-1">
-                        <input type="email" name="client_phone" class="client-phone" placeholder="Ваш e-mail*">
+                        <input type="tel" name="client_phone" class="client-phone" placeholder="Ваш телефон*">
                     </div>
 
                     <div class="col-1-3 col-xs-1">
@@ -1193,7 +1193,7 @@ $image = SI_CurrentPageImage();
                     </div>
                 </div>
 
-                <input type="hidden" name="send_type" class="send-type" value="2">
+                <input type="hidden" name="send_type" class="send-type" value="3">
                 <input type="hidden" name="send_extra" class="send-extra" value="1">
 				<input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
 				<?php //Поле выше для защиты формы от спам-ботов ?>
@@ -1232,7 +1232,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 align-right">
                     <div class="si-phone">
                         <a href="tel:+74997558887" class="phone-link dark">8 499 755 888 7</a>
-                        <a href="#" class="btn open-project-modal consult" data-extra="2"><span>Заказать консультацию</span></a>
+                        <a href="#" class="btn open-consult-modal consult" data-extra="2"><span>Заказать консультацию</span></a>
                     </div>
                     <a href="mailto:info@gobopro-x55.ru" class="mail-link hidden-xs dark">info@gobopro-x55.ru</a>
                     <a href="#" class="data open-text-modal" data-id="1">
@@ -1264,6 +1264,27 @@ $image = SI_CurrentPageImage();
     <div class="si-overlay"></div>
     <div class="si-overlay-2"></div>
 
+    <div class="nav-block visible-xs">
+        <div class="show-mobile-menu second-screen-block">
+            <span class="icon-sandwich"></span>
+            <span class="text">Закрыть</span>
+        </div>
+        <div class="nav-item"></div>
+    </div>
+
+    <div class="global-mobile-nav">
+        <div class="pseudo-table">
+            <div class="pseudo-table-cell nav-overlay">
+                <ul class="nav" id="global-menu">
+                    <li><a class="si-jump global-nav-link"  href="#install">Установка</a></li>
+                    <li><a class="si-jump global-nav-link" href="#quality">Гарантия</a></li>
+                    <li><a class="si-jump global-nav-link" href="#free-second">Доставка</a></li>
+                    <li><a class="si-jump global-nav-link" href="#review">Отзывы</a></li>
+                    <li><a class="si-jump global-nav-link" href="#sertificate">О компании</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <!-- Wrappers -->
     <div class="si-modals-wrapper-2"></div>
@@ -1284,7 +1305,7 @@ $image = SI_CurrentPageImage();
                     Ваша заявка отправлена
                 </div>
 
-                <div class="line"></div>
+                <div class="success-line"></div>
 
                 <p class="success-last">
                     Наш менеджер свяжется с Вами
@@ -1407,7 +1428,7 @@ $image = SI_CurrentPageImage();
         </div>
 
         <!--============================================== phone modal -->
-        <div class="si-modal project-modal">
+        <div class="si-modal consult-modal">
             <a href="#" class="si-close"></a>
 
             <div class="modal-container dark-block align-center">
@@ -1436,6 +1457,48 @@ $image = SI_CurrentPageImage();
 
                     <div class="btn-holder">
                         <button type="submit" class="btn border-gradient">Заказать консультацию <div class="agree">Я принимаю условия передачи информации</div></button>
+                        <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+        <!--============================================== phone modal -->
+        <div class="si-modal project-modal">
+            <a href="#" class="si-close"></a>
+
+            <div class="modal-container dark-block align-center">
+
+                <div class="modal-form-title">
+                    Закажите проектор
+                </div>
+
+                <div class="modal-time">
+                    Оставьте заявку и наш менеджер свяжется с Вами в ближайшее время
+                </div>
+
+                <form method="post" class="send-form" autocomplete="off">
+                    <div class="row">
+
+                        <input type="text" name="client_name" class="client-name" placeholder="Ваше имя*">
+
+                        <input type="tel" name="client_phone" class="client-phone" placeholder="Ваш телефон*">
+
+                        <input type="email" name="client_mail" class="client-mail" placeholder="Ваш email*">
+
+                        <input type="text" name="client_address" class="client-address" placeholder="Ваше адрес*">
+
+                    </div>
+
+                    <input type="hidden" name="send_type" class="send-type" value="2">
+                    <input type="hidden" name="send_extra" class="send-extra" value="1">
+                    <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                    <?php //Поле выше для защиты формы от спам-ботов ?>
+
+                    <div class="btn-holder">
+                        <button type="submit" class="btn border-gradient">Заказать проектор <div class="agree">Я принимаю условия передачи информации</div></button>
                         <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
                     </div>
 
