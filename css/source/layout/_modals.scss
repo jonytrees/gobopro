@@ -140,12 +140,17 @@ html {
 
 .characteristic-modal{
 	background: #17171d !important;
+	width: 700px;
+
+	@include mobile{
+		width: 100%;
+	}
 }
 
 .left,
 .right{
 	display: inline-block;
-	width: 45%;
+	width: 44%;
 	vertical-align: top;
 }
 
@@ -162,7 +167,7 @@ html {
 	}
 
 	&.img-1{
-		margin-left: 70px;
+		margin-left: 30px;
 
 		@include mobile{
 			margin-bottom: 40px;
@@ -183,7 +188,7 @@ html {
 	}
 
 	.characteristic-text{
-		width: 340px;
+		width: 78%;
 		display: inline-block;
 		vertical-align: top;
 		font: 300 21px/24px 'Helvetica';

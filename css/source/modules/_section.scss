@@ -14,7 +14,7 @@ img[data-src] {
 }
 
 .action-block{
-	width: 150px;
+	width: 170px;
 	display: block;
 	height: auto;
 	position: fixed;
@@ -22,6 +22,8 @@ img[data-src] {
 	right: 8%;
 	top: 50%;
 	z-index: 150;
+	border-radius: 100%;
+	overflow: hidden;
 
 	@include mobile{
 		display: none;
@@ -35,13 +37,14 @@ img[data-src] {
 		background-image: linear-gradient(to left, #b943df 0%, #00c4ff 100%);
 		text-align: center;
 		font: 300 27px/57px 'Myriad';
+
 	}
 
 	.action-text{
 		background-color: #17171d;
 		display: block;
 		width: 100%;
-		padding: 23px 32px;
+		padding: 23px 45px;
 		font: 300 17px/22px 'Myriad';
 	}
 }
@@ -170,6 +173,12 @@ h2{
 		font: 700 66px/83px 'Helvetica';
 		display: block;
 		margin-bottom: 27px;
+
+		span{
+			width: 30px;
+			background: url("../svg/ruble.svg") no-repeat;
+
+		}
 	}
 
 	.sub_title{
@@ -1334,6 +1343,7 @@ h2{
 		padding-top: 55px;
 		padding-bottom: 60px;
 		padding-left: 30px;
+		cursor: pointer;
 
 		&:nth-child(1){
 			border-bottom: none;

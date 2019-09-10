@@ -75,7 +75,7 @@ $image = SI_CurrentPageImage();
         </div>
 
     <!--===================================================== Action -->
-    <div class="action-block">
+    <div class="action-block si-floating2">
         <div class="action-title">
             Акция!
         </div>
@@ -102,7 +102,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-2-3">
                     <div class="si-phone">
                         <a href="mailto:info@gobopro-x55.ru" class="mail-link hidden-xs">info@gobopro-x55.ru</a>
-                        <a href="tel:+74997558887" class="phone-link">8 499 755-888-7</a>
+                        <a href="tel:+78002018887" class="phone-link">8 800 201-888-7</a>
                     </div>
                     <a href="#" class="open-consult-modal consult" data-extra="1"><span>Заказать консультацию</span></a>
                     <div class="nav-block hidden-xs">
@@ -138,7 +138,8 @@ $image = SI_CurrentPageImage();
 
             <h1>
                 GoboPro X55 <br>
-                за 15 555 руб.
+                за 15 555 <span></span>
+                ₽
             </h1>
 
             <div class="sub_title">
@@ -588,7 +589,7 @@ $image = SI_CurrentPageImage();
                         Монтаж
                     </div>
                     <div class="text">
-                        Установите гобо проектор в выбранном месте и подключите в питанию 220 Вольт.
+                        Установите гобо проектор в выбранном месте и подключите к питанию 220 Вольт.
                     </div>
                 </div>
                 <div class="install-block">
@@ -746,7 +747,8 @@ $image = SI_CurrentPageImage();
             </h2>
 
             <p>
-                Для работы проектора и создания чёткой проекции Вам понадобится стеклянный слайд с напечатанным на нём изображением. Мы изготовим его за 1 день.
+                Для работы проектора и создания чёткой проекции Вам понадобится стеклянный слайд с нанесенным на него
+                изображением. Мы изготовим его за 1 день.
             </p>
 
             <div class="wrapper-what-slider">
@@ -814,7 +816,7 @@ $image = SI_CurrentPageImage();
                                 Любые цвета
                             </div>
                             <div class="text">
-                                Мы подберём оптимальное сочетание цветов для привлечения внимания к деталям с учётом особенностей световой проекции. Мало цветов? Изготовим полноцветный гобо-слайд любого цвета и сложности
+                                Мы подберём оптимальное сочетание цветов для привлечения внимания к деталям с учётом особенностей световой проекции. Мало цветов? Изготовим полноцветный гобо слайд любого цвета и сложности
                             </div>
                         </div>
                     </div>
@@ -847,7 +849,7 @@ $image = SI_CurrentPageImage();
                                 по тёмным областям
                             </div>
                             <div class="text">
-                                Стандартная форма проекции -  круг, но иногда нужна другая форма. Наши производственные возможности позволяют создать проекцию любой формы: ромбы, звёзды, символы, пиктограмы и т.д. - всё это доступно Вам.
+                                Стандартная форма проекции круг, но иногда нужна другая форма. Наши производственные возможности позволяют создать проекцию любой формы: ромбы, звёзды, символы, пиктограммы и т.д. - всё это доступно Вам.
                             </div>
                         </div>
                     </div>
@@ -913,10 +915,10 @@ $image = SI_CurrentPageImage();
                     </div>
                     <div class="line"></div>
                     <div class="text">
-                        Гарантия сохраняется при самостоятельном монтаже. При наступлении гарантийного случая
+                        Гарантия сохраняется при самостоятельном монтаже.
                     </div>
                     <div class="text">
-                        мы бесплатно устраним все неполадки и вернём проектор вам.
+                        При наступлении гарантийного случая мы бесплатно устраним все неполадки и вернём проектор вам.
                     </div>
                 </div>
             </div>
@@ -930,9 +932,9 @@ $image = SI_CurrentPageImage();
                 <div class="col-2-3 col-xs-1">
                     <h3 class="second">
                         Мы проверяем работоспособность и<br>
-                        качество проекции каждого проектора.<br>
+                        качество проекции каждого экземпляра.<br>
                         По итогам проверки мы сделаем<br>
-                        фото-отчёт и пришлём его вам.
+                        фото-отчёт и пришлём его Вам.
                     </h3>
                 </div>
                 <div class="col-1-3 col-xs-1">
@@ -1049,7 +1051,8 @@ $image = SI_CurrentPageImage();
 
                     <div class="answer">
                         <p>
-                            Размер проекции определяет расстояние от проектора до плоскости. Для GoboPro X55 каждый дополнительный метр расстояния увеличивает максимальный диаметр изображения на 40 см.
+                            Размер проекции определяет расстояние от проектора до плоскости. Для GoboPro X55 каждый
+                            дополнительный метр расстояния увеличивает максимальный диаметр изображения на 30 см.
                         </p>
                     </div>
                 </div>
@@ -1231,7 +1234,7 @@ $image = SI_CurrentPageImage();
                 <!-- Phone block -->
                 <div class="col-1-2 align-right">
                     <div class="si-phone">
-                        <a href="tel:+74997558887" class="phone-link dark">8 499 755 888 7</a>
+                        <a href="tel:+78002018887" class="phone-link dark">8 800 201-888-7</a>
                         <a href="#" class="btn open-consult-modal consult" data-extra="2"><span>Заказать консультацию</span></a>
                     </div>
                     <a href="mailto:info@gobopro-x55.ru" class="mail-link hidden-xs dark">info@gobopro-x55.ru</a>
@@ -1373,7 +1376,7 @@ $image = SI_CurrentPageImage();
                                     <img src="images/characteristic/characteristic-icon-6.png" alt=" ">
                                 </div>
                                 <div class="characteristic-text">
-                                    Вращение изоброжения в разные
+                                    Вращение изображения в разные
                                     стороны
                                 </div>
                             </div>
@@ -1511,7 +1514,7 @@ $image = SI_CurrentPageImage();
         <div class="si-modal text-modal text-modal-1">
             <a href="#" class="si-close"></a>
 
-            <div class="modal-container">
+            <div class="modal-container dark-block">
 
                 <div class="modal-form-title align-center">
                     Согласие на обработку персональных данных

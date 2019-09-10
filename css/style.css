@@ -3829,12 +3829,16 @@ html.si-lock2 {
   margin-bottom: 27px; }
 
 .characteristic-modal {
-  background: #17171d !important; }
+  background: #17171d !important;
+  width: 700px; }
+  @media all and (max-width: 750px) {
+    .characteristic-modal {
+      width: 100%; } }
 
 .left,
 .right {
   display: inline-block;
-  width: 45%;
+  width: 44%;
   vertical-align: top; }
 
 .right {
@@ -3847,7 +3851,7 @@ html.si-lock2 {
     .characteristic-img {
       margin-bottom: 80px; } }
   .characteristic-img.img-1 {
-    margin-left: 70px; }
+    margin-left: 30px; }
     @media all and (max-width: 750px) {
       .characteristic-img.img-1 {
         margin-bottom: 40px;
@@ -3862,7 +3866,7 @@ html.si-lock2 {
     vertical-align: top;
     margin-right: 24px; }
   .characteristic-block .characteristic-text {
-    width: 340px;
+    width: 78%;
     display: inline-block;
     vertical-align: top;
     font: 300 21px/24px 'Helvetica'; }
@@ -4085,14 +4089,16 @@ img[data-src] {
   opacity: 0; }
 
 .action-block {
-  width: 150px;
+  width: 170px;
   display: block;
   height: auto;
   position: fixed;
   box-shadow: 1px 2px 43px 8px rgba(14, 15, 22, 0.51);
   right: 8%;
   top: 50%;
-  z-index: 150; }
+  z-index: 150;
+  border-radius: 100%;
+  overflow: hidden; }
   @media all and (max-width: 750px) {
     .action-block {
       display: none; } }
@@ -4108,7 +4114,7 @@ img[data-src] {
     background-color: #17171d;
     display: block;
     width: 100%;
-    padding: 23px 32px;
+    padding: 23px 45px;
     font: 300 17px/22px 'Myriad'; }
 
 .gradient-button {
@@ -4209,6 +4215,9 @@ h2 {
     font: 700 66px/83px 'Helvetica';
     display: block;
     margin-bottom: 27px; }
+    .section-heading h1 span {
+      width: 30px;
+      background: url("../svg/ruble.svg") no-repeat; }
   .section-heading .sub_title {
     width: 420px;
     display: block;
@@ -5108,7 +5117,8 @@ h2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.21);
     padding-top: 55px;
     padding-bottom: 60px;
-    padding-left: 30px; }
+    padding-left: 30px;
+    cursor: pointer; }
     .section-question .question-item:nth-child(1) {
       border-bottom: none; }
     .section-question .question-item:nth-child(2) {
