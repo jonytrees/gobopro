@@ -182,6 +182,7 @@ jQuery(function ($) {
         SIModals.attachModal('.open-characteristic-modal', '.characteristic-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-project-modal', '.project-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-consult-modal', '.consult-modal', {'.send-extra': 'extra'});
+        SIModals.attachModal('.open-condition-modal', '.condition-modal', {'.send-extra': 'extra'});
         SIModals.attachModal('.open-text-modal', '.text-modal', false, function () {
             return '.text-modal-' + $(this).data('id');
         });

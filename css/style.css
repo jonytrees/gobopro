@@ -504,6 +504,11 @@ iframe {
   src: url("../fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Bold.woff2") format("woff2"), url("../fonts/MyriadPro-Bold.woff") format("woff"), url("../fonts/MyriadPro-Bold.ttf") format("truetype"), url("../fonts/MyriadPro-Bold.svg#MyriadPro-Bold") format("svg");
   font-weight: bold;
   font-style: normal; }
+@font-face {
+  font-family: 'rouble';
+  src: url("../fonts/rouble.otf") format("otf");
+  font-weight: bold;
+  font-style: normal; }
 @media all and (max-width: 750px) {
   .hidden-xs {
     display: none !important; } }
@@ -845,7 +850,7 @@ iframe {
     transform: scale(1.3); }
   to {
     transform: scale(1); } }
-.si-scale, .hover-scale-1:hover [class*="-image"] .icon, .hover-scale-1:hover [class*="-image"] .si-close, .hover-scale-1:hover [class*="-image"] .si-close-popup, .hover-scale-1:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-scale-1:hover [class*="-image"] .img-sertificate::after, .hover-scale-1:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-scale-1:hover [class*="-image"] .img-sertificate::after,
+.si-scale, .hover-scale-1:hover [class*="-image"] .icon, .hover-scale-1:hover [class*="-image"] .si-close, .hover-scale-1:hover [class*="-image"] .si-close-popup, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-1::after, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-2::after, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-3::after, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-4::after, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-5::after, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-6::after, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-7::after, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-8::after, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-9::after, .hover-scale-1:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-scale-1:hover [class*="-image"] .place-wrapper.i-10::after, .hover-scale-1:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-scale-1:hover [class*="-image"] .img-sertificate::after, .hover-scale-1:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-scale-1:hover [class*="-image"] .img-sertificate::after,
 .hover-scale-1:hover [class*="-image"] .svg-icon:not([class*="border-"]),
 .hover-scale-1:hover [class*="-image"] img {
   will-change: transform;
@@ -883,7 +888,7 @@ iframe {
     transform: scale(1.3) rotate(4deg) translate(-5px, -10px); }
   to {
     transform: scale(1) rotate(-4deg); } }
-.si-scale2, .hover-scale-2:hover [class*="-image"] .icon, .hover-scale-2:hover [class*="-image"] .si-close, .hover-scale-2:hover [class*="-image"] .si-close-popup, .hover-scale-2:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-scale-2:hover [class*="-image"] .img-sertificate::after, .hover-scale-2:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-scale-2:hover [class*="-image"] .img-sertificate::after,
+.si-scale2, .hover-scale-2:hover [class*="-image"] .icon, .hover-scale-2:hover [class*="-image"] .si-close, .hover-scale-2:hover [class*="-image"] .si-close-popup, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-1::after, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-2::after, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-3::after, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-4::after, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-5::after, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-6::after, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-7::after, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-8::after, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-9::after, .hover-scale-2:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-scale-2:hover [class*="-image"] .place-wrapper.i-10::after, .hover-scale-2:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-scale-2:hover [class*="-image"] .img-sertificate::after, .hover-scale-2:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-scale-2:hover [class*="-image"] .img-sertificate::after,
 .hover-scale-2:hover [class*="-image"] .svg-icon:not([class*="border-"]),
 .hover-scale-2:hover [class*="-image"] img {
   will-change: transform;
@@ -1026,7 +1031,7 @@ iframe {
     transform: translate3d(-10px, 0, 0); }
   20%, 40%, 60%, 80% {
     transform: translate3d(10px, 0, 0); } }
-.si-error, .hover-shake:hover [class*="-image"] .icon, .hover-shake:hover [class*="-image"] .si-close, .hover-shake:hover [class*="-image"] .si-close-popup, .hover-shake:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] .img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] .img-sertificate::after,
+.si-error, .hover-shake:hover [class*="-image"] .icon, .hover-shake:hover [class*="-image"] .si-close, .hover-shake:hover [class*="-image"] .si-close-popup, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-1::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-2::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-3::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-4::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-5::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-6::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-7::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-8::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-9::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] .place-wrapper.i-10::after, .hover-shake:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] .img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] .img-sertificate::after,
 .hover-shake:hover [class*="-image"] .svg-icon:not([class*="border-"]),
 .hover-shake:hover [class*="-image"] img {
   will-change: transform;
@@ -1120,11 +1125,11 @@ iframe {
     transform: translateX(1px) rotate(0deg); }
   100% {
     transform: translateX(-1px) rotate(0deg); } }
-.buzz-out, .hover-buzz-out:hover [class*="-image"] .icon, .hover-buzz-out:hover [class*="-image"] .si-close, .hover-buzz-out:hover [class*="-image"] .si-close-popup, .hover-buzz-out:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-buzz-out:hover [class*="-image"] .img-sertificate::after, .hover-buzz-out:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-buzz-out:hover [class*="-image"] .img-sertificate::after,
+.buzz-out, .hover-buzz-out:hover [class*="-image"] .icon, .hover-buzz-out:hover [class*="-image"] .si-close, .hover-buzz-out:hover [class*="-image"] .si-close-popup, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-1::after, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-2::after, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-3::after, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-4::after, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-5::after, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-6::after, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-7::after, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-8::after, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-9::after, .hover-buzz-out:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-buzz-out:hover [class*="-image"] .place-wrapper.i-10::after, .hover-buzz-out:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-buzz-out:hover [class*="-image"] .img-sertificate::after, .hover-buzz-out:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-buzz-out:hover [class*="-image"] .img-sertificate::after,
 .hover-buzz-out:hover [class*="-image"] .svg-icon:not([class*="border-"]),
 .hover-buzz-out:hover [class*="-image"] img, .global-nav .phone-link:hover:after, .layout-header .si-phone .phone-link:hover:after,
 .layout-header .si-phone .mail-link:hover:after, .layout-footer .phone-link:hover:after,
-.layout-footer .mail-link:hover:after, .section-install .under-block:hover .under-img, .section-what .what-block:hover .what-img, .section-what .button-block:hover .present-img {
+.layout-footer .mail-link:hover:after, .section-install .install-wrapper .install-block:hover .number, .section-install .under-block:hover .under-img, .section-what .what-block:hover .what-img, .section-what .button-block:hover .present-img {
   will-change: transform;
   transform: translate3d(0, 0, 0);
   -webkit-animation: buzz-out 1 linear 1s;
@@ -1152,7 +1157,7 @@ iframe {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
-.si-rotate, .hover-rotate:hover [class*="-image"] .icon, .hover-rotate:hover [class*="-image"] .si-close, .hover-rotate:hover [class*="-image"] .si-close-popup, .hover-rotate:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-rotate:hover [class*="-image"] .img-sertificate::after, .hover-rotate:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-rotate:hover [class*="-image"] .img-sertificate::after,
+.si-rotate, .hover-rotate:hover [class*="-image"] .icon, .hover-rotate:hover [class*="-image"] .si-close, .hover-rotate:hover [class*="-image"] .si-close-popup, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-1::after, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-2::after, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-3::after, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-4::after, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-5::after, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-6::after, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-7::after, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-8::after, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-9::after, .hover-rotate:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-rotate:hover [class*="-image"] .place-wrapper.i-10::after, .hover-rotate:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-rotate:hover [class*="-image"] .img-sertificate::after, .hover-rotate:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-rotate:hover [class*="-image"] .img-sertificate::after,
 .hover-rotate:hover [class*="-image"] .svg-icon:not([class*="border-"]),
 .hover-rotate:hover [class*="-image"] img {
   will-change: transform;
@@ -1346,7 +1351,7 @@ iframe {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1); } }
-.pulse, .hover-scale-3:hover [class*="-image"] .icon, .hover-scale-3:hover [class*="-image"] .si-close, .hover-scale-3:hover [class*="-image"] .si-close-popup, .hover-scale-3:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-scale-3:hover [class*="-image"] .img-sertificate::after, .hover-scale-3:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-scale-3:hover [class*="-image"] .img-sertificate::after,
+.pulse, .hover-scale-3:hover [class*="-image"] .icon, .hover-scale-3:hover [class*="-image"] .si-close, .hover-scale-3:hover [class*="-image"] .si-close-popup, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-1::after, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-2::after, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-3::after, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-4::after, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-5::after, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-6::after, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-7::after, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-8::after, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-9::after, .hover-scale-3:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-scale-3:hover [class*="-image"] .place-wrapper.i-10::after, .hover-scale-3:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-scale-3:hover [class*="-image"] .img-sertificate::after, .hover-scale-3:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-scale-3:hover [class*="-image"] .img-sertificate::after,
 .hover-scale-3:hover [class*="-image"] .svg-icon:not([class*="border-"]),
 .hover-scale-3:hover [class*="-image"] img {
   will-change: transform;
@@ -1468,7 +1473,7 @@ iframe {
     -ms-transform: translateY(5px);
     -o-transform: translateY(5px);
     transform: translateY(5px); } }
-.carpet-float, .hover-float:hover [class*="-image"] .icon, .hover-float:hover [class*="-image"] .si-close, .hover-float:hover [class*="-image"] .si-close-popup, .hover-float:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-float:hover [class*="-image"] .img-sertificate::after, .hover-float:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-float:hover [class*="-image"] .img-sertificate::after,
+.carpet-float, .hover-float:hover [class*="-image"] .icon, .hover-float:hover [class*="-image"] .si-close, .hover-float:hover [class*="-image"] .si-close-popup, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-1::after, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-2::after, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-3::after, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-4::after, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-5::after, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-6::after, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-7::after, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-8::after, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-9::after, .hover-float:hover [class*="-image"] .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-float:hover [class*="-image"] .place-wrapper.i-10::after, .hover-float:hover [class*="-image"] .section-sertificate .img-sertificate::after, .section-sertificate .hover-float:hover [class*="-image"] .img-sertificate::after, .hover-float:hover [class*="-image"] .section-review .img-sertificate::after, .section-review .hover-float:hover [class*="-image"] .img-sertificate::after,
 .hover-float:hover [class*="-image"] .svg-icon:not([class*="border-"]),
 .hover-float:hover [class*="-image"] img {
   will-change: transform;
@@ -2110,7 +2115,7 @@ ul.marked li {
     -ms-transform: translateX(-5px);
     -o-transform: translateX(-5px);
     transform: translateX(-5px); }
-  .swiper-button-prev .icon, .swiper-button-next .icon, .swiper-button-prev .si-close, .swiper-button-next .si-close, .swiper-button-prev .si-close-popup, .swiper-button-next .si-close-popup, .swiper-button-prev .section-sertificate .img-sertificate::after, .section-sertificate .swiper-button-prev .img-sertificate::after, .swiper-button-next .section-sertificate .img-sertificate::after, .section-sertificate .swiper-button-next .img-sertificate::after, .swiper-button-prev .section-review .img-sertificate::after, .section-review .swiper-button-prev .img-sertificate::after, .swiper-button-next .section-review .img-sertificate::after, .section-review .swiper-button-next .img-sertificate::after,
+  .swiper-button-prev .icon, .swiper-button-next .icon, .swiper-button-prev .si-close, .swiper-button-next .si-close, .swiper-button-prev .si-close-popup, .swiper-button-next .si-close-popup, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-1::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-1::after, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-2::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-2::after, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-3::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-3::after, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-4::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-4::after, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-5::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-5::after, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-6::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-6::after, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-7::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-7::after, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-8::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-8::after, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-9::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-9::after, .swiper-button-prev .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .swiper-button-prev .place-wrapper.i-10::after, .swiper-button-next .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .swiper-button-next .place-wrapper.i-10::after, .swiper-button-prev .section-sertificate .img-sertificate::after, .section-sertificate .swiper-button-prev .img-sertificate::after, .swiper-button-next .section-sertificate .img-sertificate::after, .section-sertificate .swiper-button-next .img-sertificate::after, .swiper-button-prev .section-review .img-sertificate::after, .section-review .swiper-button-prev .img-sertificate::after, .swiper-button-next .section-review .img-sertificate::after, .section-review .swiper-button-next .img-sertificate::after,
   .swiper-button-prev .svg-icon,
   .swiper-button-next .svg-icon {
     position: absolute !important;
@@ -2504,31 +2509,51 @@ input.si-error::-webkit-input-placeholder, .hover-shake:hover [class*="-image"] 
 .hover-shake:hover [class*="-image"] input.svg-icon:not([class*="border-"])::-webkit-input-placeholder, textarea.si-error::-webkit-input-placeholder, .hover-shake:hover [class*="-image"] textarea.icon::-webkit-input-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close::-webkit-input-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close-popup::-webkit-input-placeholder,
 .hover-shake:hover [class*="-image"] textarea.svg-icon:not([class*="border-"])::-webkit-input-placeholder {
   color: #cb0707; }
-input.si-error:-moz-placeholder, .hover-shake:hover [class*="-image"] input.icon:-moz-placeholder, .hover-shake:hover [class*="-image"] input.si-close:-moz-placeholder, .hover-shake:hover [class*="-image"] input.si-close-popup:-moz-placeholder, .hover-shake:hover [class*="-image"] .section-sertificate input.img-sertificate:-moz-placeholder::after, .section-sertificate .hover-shake:hover [class*="-image"] input.img-sertificate:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-review input.img-sertificate:-moz-placeholder::after, .section-review .hover-shake:hover [class*="-image"] input.img-sertificate:-moz-placeholder::after,
-.hover-shake:hover [class*="-image"] input.svg-icon:-moz-placeholder:not([class*="border-"]), textarea.si-error:-moz-placeholder, .hover-shake:hover [class*="-image"] textarea.icon:-moz-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close:-moz-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close-popup:-moz-placeholder, .hover-shake:hover [class*="-image"] .section-sertificate textarea.img-sertificate:-moz-placeholder::after, .section-sertificate .hover-shake:hover [class*="-image"] textarea.img-sertificate:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-review textarea.img-sertificate:-moz-placeholder::after, .section-review .hover-shake:hover [class*="-image"] textarea.img-sertificate:-moz-placeholder::after,
+input.si-error:-moz-placeholder, .hover-shake:hover [class*="-image"] input.icon:-moz-placeholder, .hover-shake:hover [class*="-image"] input.si-close:-moz-placeholder, .hover-shake:hover [class*="-image"] input.si-close-popup:-moz-placeholder, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-1:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-1:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-2:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-2:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-3:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-3:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-4:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-4:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-5:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-5:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-6:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-6:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-7:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-7:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-8:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-8:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-9:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-9:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-10:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-10:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sertificate input.img-sertificate:-moz-placeholder::after, .section-sertificate .hover-shake:hover [class*="-image"] input.img-sertificate:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-review input.img-sertificate:-moz-placeholder::after, .section-review .hover-shake:hover [class*="-image"] input.img-sertificate:-moz-placeholder::after,
+.hover-shake:hover [class*="-image"] input.svg-icon:-moz-placeholder:not([class*="border-"]), textarea.si-error:-moz-placeholder, .hover-shake:hover [class*="-image"] textarea.icon:-moz-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close:-moz-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close-popup:-moz-placeholder, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-1:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-1:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-2:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-2:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-3:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-3:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-4:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-4:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-5:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-5:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-6:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-6:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-7:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-7:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-8:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-8:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-9:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-9:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-10:-moz-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-10:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-sertificate textarea.img-sertificate:-moz-placeholder::after, .section-sertificate .hover-shake:hover [class*="-image"] textarea.img-sertificate:-moz-placeholder::after, .hover-shake:hover [class*="-image"] .section-review textarea.img-sertificate:-moz-placeholder::after, .section-review .hover-shake:hover [class*="-image"] textarea.img-sertificate:-moz-placeholder::after,
 .hover-shake:hover [class*="-image"] textarea.svg-icon:-moz-placeholder:not([class*="border-"]) {
   color: #cb0707; }
 input.si-error::-moz-placeholder, .hover-shake:hover [class*="-image"] input.icon::-moz-placeholder, .hover-shake:hover [class*="-image"] input.si-close::-moz-placeholder, .hover-shake:hover [class*="-image"] input.si-close-popup::-moz-placeholder,
 .hover-shake:hover [class*="-image"] input.svg-icon:not([class*="border-"])::-moz-placeholder, textarea.si-error::-moz-placeholder, .hover-shake:hover [class*="-image"] textarea.icon::-moz-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close::-moz-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close-popup::-moz-placeholder,
 .hover-shake:hover [class*="-image"] textarea.svg-icon:not([class*="border-"])::-moz-placeholder {
   color: #cb0707; }
-input.si-error:-ms-input-placeholder, .hover-shake:hover [class*="-image"] input.icon:-ms-input-placeholder, .hover-shake:hover [class*="-image"] input.si-close:-ms-input-placeholder, .hover-shake:hover [class*="-image"] input.si-close-popup:-ms-input-placeholder, .hover-shake:hover [class*="-image"] .section-sertificate input.img-sertificate:-ms-input-placeholder::after, .section-sertificate .hover-shake:hover [class*="-image"] input.img-sertificate:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-review input.img-sertificate:-ms-input-placeholder::after, .section-review .hover-shake:hover [class*="-image"] input.img-sertificate:-ms-input-placeholder::after,
-.hover-shake:hover [class*="-image"] input.svg-icon:-ms-input-placeholder:not([class*="border-"]), textarea.si-error:-ms-input-placeholder, .hover-shake:hover [class*="-image"] textarea.icon:-ms-input-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close:-ms-input-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close-popup:-ms-input-placeholder, .hover-shake:hover [class*="-image"] .section-sertificate textarea.img-sertificate:-ms-input-placeholder::after, .section-sertificate .hover-shake:hover [class*="-image"] textarea.img-sertificate:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-review textarea.img-sertificate:-ms-input-placeholder::after, .section-review .hover-shake:hover [class*="-image"] textarea.img-sertificate:-ms-input-placeholder::after,
+input.si-error:-ms-input-placeholder, .hover-shake:hover [class*="-image"] input.icon:-ms-input-placeholder, .hover-shake:hover [class*="-image"] input.si-close:-ms-input-placeholder, .hover-shake:hover [class*="-image"] input.si-close-popup:-ms-input-placeholder, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-1:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-1:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-2:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-2:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-3:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-3:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-4:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-4:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-5:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-5:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-6:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-6:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-7:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-7:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-8:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-8:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-9:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-9:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.place-wrapper.i-10:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.place-wrapper.i-10:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sertificate input.img-sertificate:-ms-input-placeholder::after, .section-sertificate .hover-shake:hover [class*="-image"] input.img-sertificate:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-review input.img-sertificate:-ms-input-placeholder::after, .section-review .hover-shake:hover [class*="-image"] input.img-sertificate:-ms-input-placeholder::after,
+.hover-shake:hover [class*="-image"] input.svg-icon:-ms-input-placeholder:not([class*="border-"]), textarea.si-error:-ms-input-placeholder, .hover-shake:hover [class*="-image"] textarea.icon:-ms-input-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close:-ms-input-placeholder, .hover-shake:hover [class*="-image"] textarea.si-close-popup:-ms-input-placeholder, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-1:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-1:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-2:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-2:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-3:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-3:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-4:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-4:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-5:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-5:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-6:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-6:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-7:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-7:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-8:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-8:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-9:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-9:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-10:-ms-input-placeholder::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-10:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-sertificate textarea.img-sertificate:-ms-input-placeholder::after, .section-sertificate .hover-shake:hover [class*="-image"] textarea.img-sertificate:-ms-input-placeholder::after, .hover-shake:hover [class*="-image"] .section-review textarea.img-sertificate:-ms-input-placeholder::after, .section-review .hover-shake:hover [class*="-image"] textarea.img-sertificate:-ms-input-placeholder::after,
 .hover-shake:hover [class*="-image"] textarea.svg-icon:-ms-input-placeholder:not([class*="border-"]) {
   color: #cb0707; }
-input.si-error.placeholder, .hover-shake:hover [class*="-image"] input.placeholder.icon, .hover-shake:hover [class*="-image"] input.placeholder.si-close, .hover-shake:hover [class*="-image"] input.placeholder.si-close-popup, .hover-shake:hover [class*="-image"] .section-sertificate input.placeholder.img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] input.placeholder.img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review input.placeholder.img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] input.placeholder.img-sertificate::after,
-.hover-shake:hover [class*="-image"] input.placeholder.svg-icon:not([class*="border-"]), textarea.si-error.placeholder, .hover-shake:hover [class*="-image"] textarea.placeholder.icon, .hover-shake:hover [class*="-image"] textarea.placeholder.si-close, .hover-shake:hover [class*="-image"] textarea.placeholder.si-close-popup, .hover-shake:hover [class*="-image"] .section-sertificate textarea.placeholder.img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] textarea.placeholder.img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review textarea.placeholder.img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] textarea.placeholder.img-sertificate::after,
+input.si-error.placeholder, .hover-shake:hover [class*="-image"] input.placeholder.icon, .hover-shake:hover [class*="-image"] input.placeholder.si-close, .hover-shake:hover [class*="-image"] input.placeholder.si-close-popup, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-1::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-2::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-3::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-4::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-5::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-6::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-7::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-8::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-9::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input.placeholder.place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input.placeholder.place-wrapper.i-10::after, .hover-shake:hover [class*="-image"] .section-sertificate input.placeholder.img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] input.placeholder.img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review input.placeholder.img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] input.placeholder.img-sertificate::after,
+.hover-shake:hover [class*="-image"] input.placeholder.svg-icon:not([class*="border-"]), textarea.si-error.placeholder, .hover-shake:hover [class*="-image"] textarea.placeholder.icon, .hover-shake:hover [class*="-image"] textarea.placeholder.si-close, .hover-shake:hover [class*="-image"] textarea.placeholder.si-close-popup, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-1::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-2::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-3::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-4::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-5::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-6::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-7::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-8::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-9::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.placeholder.place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.placeholder.place-wrapper.i-10::after, .hover-shake:hover [class*="-image"] .section-sertificate textarea.placeholder.img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] textarea.placeholder.img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review textarea.placeholder.img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] textarea.placeholder.img-sertificate::after,
 .hover-shake:hover [class*="-image"] textarea.placeholder.svg-icon:not([class*="border-"]) {
   color: #cb0707; }
 
-input[type=text].si-error, .hover-shake:hover [class*="-image"] input[type=text].icon, .hover-shake:hover [class*="-image"] input.icon[type=email], .hover-shake:hover [class*="-image"] input[type=email].si-close, .hover-shake:hover [class*="-image"] input[type=email].si-close-popup, .hover-shake:hover [class*="-image"] .section-sertificate input[type=email].img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] input[type=email].img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review input[type=email].img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] input[type=email].img-sertificate::after,
+input[type=text].si-error, .hover-shake:hover [class*="-image"] input[type=text].icon, .hover-shake:hover [class*="-image"] input.icon[type=email], .hover-shake:hover [class*="-image"] input[type=email].si-close, .hover-shake:hover [class*="-image"] input[type=email].si-close-popup, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-1::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-2::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-3::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-4::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-5::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-6::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-7::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-8::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-9::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=email].place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=email].place-wrapper.i-10::after, .hover-shake:hover [class*="-image"] .section-sertificate input[type=email].img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] input[type=email].img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review input[type=email].img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] input[type=email].img-sertificate::after,
 .hover-shake:hover [class*="-image"] input.icon[type=tel],
 .hover-shake:hover [class*="-image"] input[type=tel].si-close,
 .hover-shake:hover [class*="-image"] input[type=tel].si-close-popup,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-1::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-1::after,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-2::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-2::after,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-3::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-3::after,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-4::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-4::after,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-5::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-5::after,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-6::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-6::after,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-7::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-7::after,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-8::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-8::after,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-9::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-9::after,
+.hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=tel].place-wrapper.i-10::after,
+.section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=tel].place-wrapper.i-10::after,
 .hover-shake:hover [class*="-image"] .section-sertificate input[type=tel].img-sertificate::after,
 .section-sertificate .hover-shake:hover [class*="-image"] input[type=tel].img-sertificate::after,
 .hover-shake:hover [class*="-image"] .section-review input[type=tel].img-sertificate::after,
-.section-review .hover-shake:hover [class*="-image"] input[type=tel].img-sertificate::after, .hover-shake:hover [class*="-image"] textarea.icon, .hover-shake:hover [class*="-image"] textarea.si-close, .hover-shake:hover [class*="-image"] textarea.si-close-popup, .hover-shake:hover [class*="-image"] .section-sertificate textarea.img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] textarea.img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review textarea.img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] textarea.img-sertificate::after, .hover-shake:hover [class*="-image"] input[type=text].si-close, .hover-shake:hover [class*="-image"] input[type=text].si-close-popup, .hover-shake:hover [class*="-image"] .section-sertificate input[type=text].img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] input[type=text].img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review input[type=text].img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] input[type=text].img-sertificate::after,
+.section-review .hover-shake:hover [class*="-image"] input[type=tel].img-sertificate::after, .hover-shake:hover [class*="-image"] textarea.icon, .hover-shake:hover [class*="-image"] textarea.si-close, .hover-shake:hover [class*="-image"] textarea.si-close-popup, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-1::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-2::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-3::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-4::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-5::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-6::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-7::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-8::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-9::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider textarea.place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] textarea.place-wrapper.i-10::after, .hover-shake:hover [class*="-image"] .section-sertificate textarea.img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] textarea.img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review textarea.img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] textarea.img-sertificate::after, .hover-shake:hover [class*="-image"] input[type=text].si-close, .hover-shake:hover [class*="-image"] input[type=text].si-close-popup, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-1::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-2::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-3::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-4::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-5::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-6::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-7::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-8::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-9::after, .hover-shake:hover [class*="-image"] .section-sub_header .wrapper-place-slider input[type=text].place-wrapper.i-10::after, .section-sub_header .wrapper-place-slider .hover-shake:hover [class*="-image"] input[type=text].place-wrapper.i-10::after, .hover-shake:hover [class*="-image"] .section-sertificate input[type=text].img-sertificate::after, .section-sertificate .hover-shake:hover [class*="-image"] input[type=text].img-sertificate::after, .hover-shake:hover [class*="-image"] .section-review input[type=text].img-sertificate::after, .section-review .hover-shake:hover [class*="-image"] input[type=text].img-sertificate::after,
 .hover-shake:hover [class*="-image"] input[type=text].svg-icon:not([class*="border-"]),
 .hover-shake:hover [class*="-image"] input.svg-icon[type=email]:not([class*="border-"]),
 .hover-shake:hover [class*="-image"] input.svg-icon[type=tel]:not([class*="border-"]),
@@ -2799,7 +2824,7 @@ textarea {
     height: calc(100% + 12px) !important;
     left: -6px; }
 
-.icon, .si-close, .si-close-popup, .section-sertificate .img-sertificate::after, .section-review .img-sertificate::after {
+.icon, .si-close, .si-close-popup, .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sertificate .img-sertificate::after, .section-review .img-sertificate::after {
   display: inline-block;
   overflow: hidden;
   text-indent: -9999px;
@@ -2807,7 +2832,7 @@ textarea {
   position: relative;
   vertical-align: middle; }
 
-.icon-zoom, .section-sertificate .img-sertificate::after, .section-review .img-sertificate::after {
+.icon-zoom, .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after, .section-sertificate .img-sertificate::after, .section-review .img-sertificate::after {
   width: 60px;
   height: 60px;
   background: url("../images/icon-zoom.png") no-repeat transparent;
@@ -3615,7 +3640,7 @@ textarea {
         display: block;
         margin-bottom: 23px; }
       .layout-footer .logo-block .logo-text .text {
-        color: #6a6b74;
+        color: #eeeeee;
         font: 300 18px/18px 'Myriad';
         display: block;
         margin-bottom: 16px; }
@@ -4193,40 +4218,43 @@ h2 {
         left: -55%; } }
   .section-heading .header-img {
     position: absolute;
-    top: -200px;
+    top: -84px;
     right: -220px;
-    background: url("../images/header-img.png") no-repeat;
+    background: url("../images/header-img.jpg") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    width: 1253px;
-    height: 1073px;
+    width: 1030px;
+    height: 737px;
     z-index: -1; }
     @media all and (max-width: 750px) {
       .section-heading .header-img {
         display: block;
         position: relative;
-        top: 0;
+        top: -30px;
         right: 0;
         width: 100%;
-        height: 732px;
-        background: url("../images/header-img.png") 50% 50% no-repeat; } }
+        height: 567px;
+        background: url("../images/header-img_mobile.jpg") 50% 50% no-repeat;
+        background-size: cover; } }
   .section-heading h1 {
     color: #ffffff;
     font: 700 66px/83px 'Helvetica';
     display: block;
     margin-bottom: 27px; }
     .section-heading h1 span {
-      width: 30px;
-      background: url("../svg/ruble.svg") no-repeat; }
+      font: 700 66px/83px 'Helvetica', sans-serif; }
   .section-heading .sub_title {
     width: 420px;
     display: block;
     font: 300 30px/36px 'Helvetica';
     color: #d9d9d9;
     margin-bottom: 25px; }
+    @media all and (max-width: 750px) {
+      .section-heading .sub_title {
+        margin-bottom: 0; } }
   @media all and (max-width: 750px) {
     .section-heading .margin-top {
-      margin-top: -250px; } }
+      margin-top: -90px; } }
   .section-heading .gradient-button {
     width: 244px;
     height: 65px;
@@ -4324,43 +4352,623 @@ h2 {
     .section-sub_header .wrapper-place-slider .place-wrapper.i-1 {
       background: url("../images/slider/slide-1.png") 50% 20% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-1 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-1::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-1::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-1:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-1:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-1:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-1:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-2 {
       background: url("../images/slider/slide-2.png") 50% 20% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-2 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-2::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-2::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-2:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-2:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-2:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-2:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-3 {
       background: url("../images/slider/slide-3.png") 50% 50% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-3 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-3::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-3::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-3:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-3:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-3:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-3:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-4 {
       background: url("../images/slider/slide-4.png") 50% 50% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-4 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-4::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-4::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-4:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-4:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-4:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-4:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-5 {
       background: url("../images/slider/slide-5.png") 50% 30% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-5 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-5::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-5::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-5:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-5:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-5:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-5:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-6 {
       background: url("../images/slider/slide-6.png") 50% 30% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-6 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-6::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-6::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-6:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-6:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-6:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-6:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-7 {
       background: url("../images/slider/slide-7.png") 50% 20% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-7 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-7::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-7::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-7:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-7:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-7:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-7:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-8 {
       background: url("../images/slider/slide-8.png") 50% 20% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-8 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-8::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-8::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-8:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-8:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-8:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-8:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-9 {
       background: url("../images/slider/slide-9.png") 50% 30% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-9 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-9::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-9::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-9:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-9:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-9:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-9:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-10 {
       background: url("../images/slider/slide-10.png") 50% 50% no-repeat;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      display: block;
+      position: relative;
+      cursor: pointer !important; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-10 img {
+        display: block;
+        position: relative;
+        z-index: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-10::before {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        content: "";
+        background: rgba(22, 22, 28, 0.65);
+        opacity: 0;
+        z-index: 2; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-10::after {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(4);
+        -moz-transform: scale(4);
+        -ms-transform: scale(4);
+        -o-transform: scale(4);
+        transform: scale(4);
+        content: "";
+        opacity: 0;
+        z-index: 3; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-10:hover::before, .section-sub_header .wrapper-place-slider .place-wrapper.i-10:active::before {
+        opacity: 1; }
+      .section-sub_header .wrapper-place-slider .place-wrapper.i-10:hover::after, .section-sub_header .wrapper-place-slider .place-wrapper.i-10:active::after {
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: antialiased;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1; }
   .section-sub_header .wrapper-place-slider .place-next,
   .section-sub_header .wrapper-place-slider .place-prev {
     width: 18px;
@@ -4390,6 +4998,13 @@ h2 {
     width: 90%;
     display: block;
     margin: 0 auto 55px; }
+  .section-project h3 {
+    text-align: center;
+    margin-bottom: 80px;
+    font: 700 40px/40px 'Myriad'; }
+    @media all and (max-width: 750px) {
+      .section-project h3 {
+        margin-bottom: 30px; } }
   .section-project .project-text {
     width: 97%;
     display: block;
@@ -4530,8 +5145,8 @@ h2 {
         display: block;
         margin-bottom: 27px; }
       .section-install .install-wrapper .install-block .text {
-        color: #bfbfbf;
-        font: 300 18px/24px 'Myriad'; }
+        color: #eeeeee;
+        font: 300 19px/24px 'Myriad'; }
   .section-install .under-block {
     display: block;
     width: 100%;
@@ -4621,8 +5236,8 @@ h2 {
         width: 100%; } }
     .section-video .nav-tabs .tab-link {
       display: inline-block;
-      color: #9f9f9f;
-      font: 300 18px/18px 'Myriad';
+      color: #eeeeee;
+      font: 300 19px/24px 'Myriad';
       position: relative;
       text-align: center;
       padding-left: 23px;
@@ -4771,9 +5386,9 @@ h2 {
         display: block;
         margin-bottom: 15px; }
       .section-what .what-block .what-text .text {
-        color: #6a6b74;
         display: block;
-        font: 300 16px/24px 'Myriad'; }
+        color: #eeeeee;
+        font: 300 18px/24px 'Myriad'; }
   .section-what .button-block {
     width: 660px;
     display: block;
@@ -4927,9 +5542,9 @@ h2 {
     width: 40%;
     vertical-align: top;
     margin-right: 45px;
-    color: #6a6b74;
-    font: 300 25px/25px 'Myriad';
-    margin-left: 24px; }
+    margin-left: 24px;
+    color: #eeeeee;
+    font: 300 25px/26px 'Myriad'; }
     @media all and (max-width: 750px) {
       .section-quality .text {
         width: 50%;
@@ -4951,8 +5566,15 @@ h2 {
       padding-top: 135px; } }
   .section-sertificate h3 {
     font: 700 38px/38px 'Myriad';
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     display: block;
+    text-align: center; }
+  .section-sertificate .sub_title {
+    width: 100%;
+    display: block;
+    font: 300 18px/27px 'Helvetica';
+    color: #d9d9d9;
+    margin: 0 auto 80px;
     text-align: center; }
   .section-sertificate .img-sertificate {
     display: block;
@@ -5145,9 +5767,9 @@ h2 {
     .section-question .question-item .answer {
       width: 850px;
       display: block;
-      color: #6a6b74;
-      font: 300 18px/24px 'Myriad';
-      margin-left: 57px; }
+      margin-left: 57px;
+      color: #eeeeee;
+      font: 300 20px/24px 'Myriad'; }
       @media all and (max-width: 750px) {
         .section-question .question-item .answer {
           width: 85%; } }
@@ -5162,6 +5784,30 @@ h2 {
   background-color: #121217; }
   .section-review h2 {
     margin-bottom: 110px; }
+  .section-review .dealer-block {
+    display: block;
+    width: 180px;
+    margin: 0 auto; }
+    .section-review .dealer-block .logo {
+      display: block;
+      margin-bottom: 30px; }
+    .section-review .dealer-block h4 {
+      color: #eee;
+      font: 300 35px/35px 'Myriad';
+      display: block;
+      margin-bottom: 20px; }
+    .section-review .dealer-block .link {
+      display: block;
+      color: #5998d2;
+      font: 300 25px/25px 'Myriad';
+      margin-bottom: 20px; }
+      .section-review .dealer-block .link:hover {
+        text-decoration: underline; }
+    .section-review .dealer-block .text {
+      display: block;
+      color: #eee;
+      font: 300 25px/25px 'Myriad';
+      margin-bottom: 20px; }
   .section-review .img-sertificate {
     display: block;
     width: 341px;
@@ -5248,18 +5894,6 @@ h2 {
     .section-form {
       padding-top: 80px;
       padding-bottom: 215px; } }
-  .section-form .after-block {
-    position: absolute;
-    width: 609px;
-    height: 469px;
-    background-color: #1b1c21;
-    top: -78px;
-    right: 97px;
-    z-index: -1; }
-    @media all and (max-width: 750px) {
-      .section-form .after-block {
-        right: -43%;
-        height: 694px; } }
 
 .section-brand {
   background-color: rgba(58, 58, 58, 0.64);

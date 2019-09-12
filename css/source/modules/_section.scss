@@ -148,23 +148,24 @@ h2{
 
 	.header-img{
 		position: absolute;
-		top: -200px;
+		top: -84px;
 		right: -220px;
-		background: url("../images/header-img.png") no-repeat;
+		background: url("../images/header-img.jpg") no-repeat;
 		-webkit-background-size: cover;
 		background-size: cover;
-		width: 1253px;
-		height: 1073px;
+		width: 1030px;
+		height: 737px;
 		z-index: -1;
 
 		@include mobile{
 			display: block;
 			position: relative;
-			top: 0;
+			top: -30px;
 			right: 0;
 			width: 100%;
-			height: 732px;
-			background: url("../images/header-img.png") 50% 50% no-repeat;
+			height: 567px;
+			background: url("../images/header-img_mobile.jpg") 50% 50% no-repeat;
+			background-size: cover;
 		}
 	}
 
@@ -175,9 +176,7 @@ h2{
 		margin-bottom: 27px;
 
 		span{
-			width: 30px;
-			background: url("../svg/ruble.svg") no-repeat;
-
+			font: 700 66px/83px 'Helvetica', sans-serif;
 		}
 	}
 
@@ -187,13 +186,18 @@ h2{
 		font: 300 30px/36px 'Helvetica';
 		color: #d9d9d9;
 		margin-bottom: 25px;
+
+		@include mobile{
+			margin-bottom: 0;
+		}
 	}
 
 	.margin-top{
 		@include mobile{
-			margin-top: -250px;
+			margin-top: -90px;
 		}
 	}
+
 
 	.gradient-button{
 		width: 244px;
@@ -324,60 +328,70 @@ h2{
 				background: url("../images/slider/slide-1.png") 50% 20% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 
 			&.i-2{
 				background: url("../images/slider/slide-2.png") 50% 20% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 
 			&.i-3{
 				background: url("../images/slider/slide-3.png") 50% 50% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 
 			&.i-4{
 				background: url("../images/slider/slide-4.png") 50% 50% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 
 			&.i-5{
 				background: url("../images/slider/slide-5.png") 50% 30% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 
 			&.i-6{
 				background: url("../images/slider/slide-6.png") 50% 30% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 
 			&.i-7{
 				background: url("../images/slider/slide-7.png") 50% 20% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 
 			&.i-8{
 				background: url("../images/slider/slide-8.png") 50% 20% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 
 			&.i-9{
 				background: url("../images/slider/slide-9.png") 50% 30% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 
 			&.i-10{
 				background: url("../images/slider/slide-10.png") 50% 50% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
+				@include img-zoom(#16161c, .35, 4);
 			}
 		}
 
@@ -422,6 +436,16 @@ h2{
 		width: 90%;
 		display: block;
 		margin: 0 auto 55px;
+	}
+
+	h3{
+		text-align: center;
+		margin-bottom: 80px;
+		font: 700 40px/40px 'Myriad';
+
+		@include mobile{
+			margin-bottom: 30px;
+		}
 	}
 
 	.project-text{
@@ -558,6 +582,11 @@ h2{
 				margin-bottom: 85px;
 			}
 
+			&:hover{
+				.number{
+					@extend .buzz-out;
+				}
+			}
 
 			&:after{
 				content: '';
@@ -617,6 +646,7 @@ h2{
 				display: block;
 				font: 400 26px/26px 'Helvetica';
 				margin-bottom: 45px;
+
 			}
 
 			.title{
@@ -626,8 +656,8 @@ h2{
 			}
 
 			.text{
-				color: #bfbfbf;
-				font: 300 18px/24px 'Myriad';
+				color: #eeeeee;
+				font: 300 19px/24px 'Myriad';
 			}
 		}
 	}
@@ -741,8 +771,8 @@ h2{
 
 		.tab-link{
 			display: inline-block;
-			color: #9f9f9f;
-			font: 300 18px/18px 'Myriad';
+			color: #eeeeee;
+			font: 300 19px/24px 'Myriad';
 			position: relative;
 			text-align: center;
 			padding-left: 23px;
@@ -950,9 +980,9 @@ h2{
 			}
 
 			.text{
-				color: #6a6b74;
 				display: block;
-				font: 300 16px/24px 'Myriad';
+				color: #eeeeee;
+				font: 300 18px/24px 'Myriad';
 			}
 		}
 	}
@@ -1166,9 +1196,9 @@ h2{
 		width: 40%;
 		vertical-align: top;
 		margin-right: 45px;
-		color: #6a6b74;
-		font: 300 25px/25px 'Myriad';
 		margin-left: 24px;
+		color: #eeeeee;
+		font: 300 25px/26px 'Myriad';
 
 		@include mobile{
 			width: 50%;
@@ -1199,8 +1229,17 @@ h2{
 
 	h3{
 		font: 700 38px/38px 'Myriad';
-		margin-bottom: 80px;
+		margin-bottom: 40px;
 		display: block;
+		text-align: center;
+	}
+
+	.sub_title{
+		width: 100%;
+		display: block;
+		font: 300 18px/27px 'Helvetica';
+		color: #d9d9d9;
+		margin: 0 auto 80px;
 		text-align: center;
 	}
 
@@ -1384,9 +1423,9 @@ h2{
 		.answer{
 			width: 850px;
 			display: block;
-			color: #6a6b74;
-			font: 300 18px/24px 'Myriad';
 			margin-left: 57px;
+			color: #eeeeee;
+			font: 300 20px/24px 'Myriad';
 
 			@include mobile{
 				width: 85%;
@@ -1418,6 +1457,42 @@ h2{
 
 	h2{
 		margin-bottom: 110px;
+	}
+
+	.dealer-block{
+		display: block;
+		width: 180px;
+		margin: 0 auto;
+
+		.logo{
+			display: block;
+			margin-bottom: 30px;
+		}
+
+		h4{
+			color: #eee;
+			font: 300 35px/35px 'Myriad';
+			display: block;
+			margin-bottom: 20px;
+		}
+
+		.link{
+			display: block;
+			color: #5998d2;
+			font: 300 25px/25px 'Myriad';
+			margin-bottom: 20px;
+
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+
+		.text{
+			display: block;
+			color: #eee;
+			font: 300 25px/25px 'Myriad';
+			margin-bottom: 20px;
+		}
 	}
 
 	.img-sertificate{
@@ -1466,21 +1541,6 @@ h2{
 		padding-bottom: 215px;
 	}
 
-
-	.after-block{
-		position: absolute;
-		width: 609px;
-		height: 469px;
-		background-color: #1b1c21;
-		top: -78px;
-		right: 97px;
-		z-index: -1;
-
-		@include mobile{
-			right: -43%;
-			height: 694px;
-		}
-	}
 }
 
 //==================== section-brand

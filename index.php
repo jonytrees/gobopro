@@ -138,8 +138,8 @@ $image = SI_CurrentPageImage();
 
             <h1>
                 GoboPro X55 <br>
-                за 15 555 <span></span>
-                ₽
+                за 15 555 <span>₽</span>
+
             </h1>
 
             <div class="sub_title">
@@ -214,7 +214,7 @@ $image = SI_CurrentPageImage();
 
         <div class="header-img visible-xs"></div>
 
-        <div class="container margin-top visible-xs">
+        <div class="container margin-top bg-fon visible-xs">
             <a href="#" class="btn open-project-modal gradient-button" data-extra="1">
                 Заказать проектор
             </a>
@@ -287,52 +287,52 @@ $image = SI_CurrentPageImage();
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-1"></div>
+                        <a href="images/slider/slide-1.png" class="place-wrapper i-1" data-fancybox="slider"></a>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-2"></div>
+                        <a href="images/slider/slide-2.png" class="place-wrapper i-2" data-fancybox="slider"></a>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-3"></div>
+                        <<a href="images/slider/slide-3.png" class="place-wrapper i-3" data-fancybox="slider"></a>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-4"></div>
+                        <a href="images/slider/slide-4.png" class="place-wrapper i-4" data-fancybox="slider"></a>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-5"></div>
+                        <a href="images/slider/slide-5.png" class="place-wrapper i-5" data-fancybox="slider"></a>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-6"></div>
+                        <a href="images/slider/slide-6.png" class="place-wrapper i-6" data-fancybox="slider"></a>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-7"></div>
+                        <a href="images/slider/slide-7.png" class="place-wrapper i-7" data-fancybox="slider"></a>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-8"></div>
+                        <a href="images/slider/slide-8.png" class="place-wrapper i-8" data-fancybox="slider"></a>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-9"></div>
+                        <a href="images/slider/slide-9.png" class="place-wrapper i-9" data-fancybox="slider"></a>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-10"></div>
+                        <a href="images/slider/slide-10.png" class="place-wrapper i-10" data-fancybox="slider"></a>
                     </div>
                 </div>
             </div>
@@ -422,6 +422,11 @@ $image = SI_CurrentPageImage();
             <div class="project-text">
                 Проектор GoboPro X55 подходит для 99% способов применения: от привлечения пешеходного трафика и праздников до организации знаков безопасности на производствах. Он лёгок в монтаже и смене изображений, не требует специальной настройки, оборудования или навыков для своей работы.
             </div>
+
+            <h3>
+                Наши
+                постоянные клиенты
+            </h3>
             <div class="wrapper-logo-slider hidden-xs">
 
                 <!-- Swiper -->
@@ -866,7 +871,7 @@ $image = SI_CurrentPageImage();
                         <span>Дополнительные цвета: 1500 руб. за цвет.</span>
                     </div>
                 </div>
-                <a href="#" class="right">
+                <a href="#" class="right open-condition-modal">
                     Требования к макету
                 </a>
             </div>
@@ -952,8 +957,22 @@ $image = SI_CurrentPageImage();
         <div class="container">
 
             <h3>
-                Сертификаты
+                О компании
             </h3>
+
+            <div class="sub_title">
+                «Компания GoboPro® - лидер среди производителей светодиодных гобо проекторов.
+                Мы уделяем особое внимание деталям, добиваясь высокой эффективности и надежности продукции.
+                Каждому клиенту команда GoboPro обеспечивает индивидуальный подход и гарантировано
+                наивысшее качество нашей продукции и выполнения заказа!<br>
+                Сотрудничество с GoboPro по достоинству оценили наши клиенты, среди которых Burger King,
+                McDonald's, KFC, IKEA, KNAUF, ФОНБЕТ, государственные учреждения и другие требовательные к
+                качеству предприятия.<br>
+                GoboPro X55 - воплощение накопленных нами знаний и опыта, в основе которого заложена
+                сбалансированность эффективности, надежности и привлекательной цены. Вы оцените новинку от
+                GoboPro по достоинству!»
+
+            </div>
 
             <div class="row hidden-xs">
                 <div class="col-1-2">
@@ -1109,23 +1128,56 @@ $image = SI_CurrentPageImage();
     <section class="section-review" id="review">
         <div class="container">
             <h2>
-                Отзывы
+                Дилеры
             </h2>
             <div class="row hidden-xs">
                 <div class="col-1-3">
-                    <a class="img-sertificate" href="images/sertificate.png" data-fancybox="product">
-                        <img data-src="images/sertificate.png" alt=" ">
-                    </a>
+                   <div class="dealer-block">
+                       <img class="logo" src="images/logos/slide-logo-1.png" alt=" ">
+                       <h4>
+                           Название
+                       </h4>
+                       <a class="link" href="#">Адрес сайта</a>
+                       <a class="link" href="#">Email</a>
+                       <div class="text">
+                           Телефон
+                       </div>
+                       <div class="text">
+                           Адрес
+                       </div>
+                   </div>
                 </div>
                 <div class="col-1-3">
-                    <a class="img-sertificate" href="images/sertificate.png" data-fancybox="product">
-                        <img data-src="images/sertificate.png" alt=" ">
-                    </a>
+                    <div class="dealer-block">
+                        <img class="logo" src="images/logos/slide-logo-2.png" alt=" ">
+                        <h4>
+                            Название
+                        </h4>
+                        <a class="link" href="#">Адрес сайта</a>
+                        <a class="link" href="#">Email</a>
+                        <div class="text">
+                            Телефон
+                        </div>
+                        <div class="text">
+                            Адрес
+                        </div>
+                    </div>
                 </div>
                 <div class="col-1-3">
-                    <a class="img-sertificate" href="images/sertificate.png" data-fancybox="product">
-                        <img data-src="images/sertificate.png" alt=" ">
-                    </a>
+                    <div class="dealer-block">
+                        <img class="logo" src="images/logos/slide-logo-3.png" alt=" ">
+                        <h4>
+                            Название
+                        </h4>
+                        <a class="link" href="#">Адрес сайта</a>
+                        <a class="link" href="#">Email</a>
+                        <div class="text">
+                            Телефон
+                        </div>
+                        <div class="text">
+                            Адрес
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -1137,16 +1189,56 @@ $image = SI_CurrentPageImage();
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a class="img-sertificate i-2" href="images/sertificate.png" data-fancybox="product">
-                                <img data-src="images/sertificate.png" alt=" ">
-                            </a>
+                            <div class="dealer-block">
+                                <img class="logo" src="images/logos/slide-logo-1.png" alt=" ">
+                                <h4>
+                                    Название
+                                </h4>
+                                <a class="link" href="#">Адрес сайта</a>
+                                <a class="link" href="#">Email</a>
+                                <div class="text">
+                                    Телефон
+                                </div>
+                                <div class="text">
+                                    Адрес
+                                </div>
+                            </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a class="img-sertificate i-2" href="images/sertificate.png" data-fancybox="product">
-                                <img data-src="images/sertificate.png" alt=" ">
-                            </a>
+                            <div class="dealer-block">
+                                <img class="logo" src="images/logos/slide-logo-2.png" alt=" ">
+                                <h4>
+                                    Название
+                                </h4>
+                                <a class="link" href="#">Адрес сайта</a>
+                                <a class="link" href="#">Email</a>
+                                <div class="text">
+                                    Телефон
+                                </div>
+                                <div class="text">
+                                    Адрес
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="dealer-block">
+                                <img class="logo" src="images/logos/slide-logo-3.png" alt=" ">
+                                <h4>
+                                    Название
+                                </h4>
+                                <a class="link" href="#">Адрес сайта</a>
+                                <a class="link" href="#">Email</a>
+                                <div class="text">
+                                    Телефон
+                                </div>
+                                <div class="text">
+                                    Адрес
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -1166,8 +1258,6 @@ $image = SI_CurrentPageImage();
     <!--===================================================== section form-consult -->
     <section class="section-form form-consult" id="form-consult">
         <div class="container">
-
-            <div class="after-block"></div>
 
             <h2>
                 Закажите консультацию
@@ -1506,6 +1596,56 @@ $image = SI_CurrentPageImage();
                     </div>
 
                 </form>
+
+            </div>
+        </div>
+
+        <!--============================================== condition modal  -->
+        <div class="si-modal condition-modal">
+            <a href="#" class="si-close"></a>
+
+            <div class="modal-container dark-block">
+
+                <div class="modal-form-title align-center">
+                    Требования к макету
+                </div>
+
+                <div class="modal-text-block">
+                    <p>
+                        1. Макеты принимаются в векторном формате (CorelDraw или Adobe Illustrator), все шрифты должны
+                        быть обкривлены.
+                    </p>
+                    <p>
+                        2. Рабочее поле - круг диаметром 25 мм. В него может быть вписано любое изображение, любой
+                        формы.
+                    </p>
+                    <p>
+                        3. Доступные цвета для производство макета выбираются из цветовой палитры и доступны у нас на
+                        сайте по ссылке <a target="_blank" href="GoboPro_palitra_Х55.pdf">https://www.gobopro-x55.ru/</a>.
+                        Черный цвет
+                        также считается 1 цветом для производства. Белый цвет изготавливается бесплатно. Вместе с макетом
+                        обязательно присылайте номера цветов из цветовой палитры.
+                    </p>
+                    <p>
+                        4. Макеты не должны содержать пересекающиеся линии в рисунках и наложение одних объектов на
+                        другие. Все объекты должны быть на одном слое. Не допускается дублирование объектов один на
+                        другом. Макет не должен содержать Абрисы. Используйте контуры чтобы придать толщину линиям.
+                        Используйте Вид - Каркас чтобы проверить структуру макета перед отправкой.
+                    </p>
+                    <p>
+                        5. Толщина самых тонких линий (в рисунках и шрифтах) не должна быть менее 0.1 мм. Используйте
+                        инструмент "параллельный размер" для проверки.
+                    </p>
+                    <p>
+                        6. Макет не должен содержать "мусор", т.е. не видимые в обычном режиме просмотра фигуры и
+                        надписи, но их легко увидеть в режиме Вид - каркас. Макет должен содержать только необходимую
+                        информацию для производства.
+                    </p>
+                    <p>
+                        7. Для полноцветных изображений с фотопечатью изображения принимаются в любом формате (но
+                        чем больше размер, тем лучше). Разрешение не ниже 300 dpi.
+                    </p>
+                </div>
 
             </div>
         </div>
