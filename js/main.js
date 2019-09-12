@@ -385,6 +385,26 @@ jQuery(function ($) {
         });
     }
 
+    if($('html').find('.dealer-slider-holder')){
+        var dealerSlider = new Swiper('.dealer-slider', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.dealer-next',
+                prevEl: '.dealer-prev',
+            },
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            on: {
+                slideChange: function() {
+                    $.ionSound.play('wuf-1');
+                }
+            }
+        });
+    }
+
     // =====================================================dotdotdot
     $('.ellipsis').dotdotdot();
     $(window).resize(function () {

@@ -128,7 +128,6 @@ h2{
 		padding-bottom: 115px;
 	}
 
-
 	&:after{
 		content: '';
 		position: absolute;
@@ -139,12 +138,21 @@ h2{
 		background-size: cover;
 		top: -90px;
 		left: 0;
+		z-index: 10;
 
 		@include mobile{
 			top: 500px;
 			left: -55%;
 		}
 	}
+
+	@include small-desktop{
+		&:after{
+			left: -250px;
+		}
+	}
+
+
 
 	.header-img{
 		position: absolute;
@@ -319,16 +327,35 @@ h2{
 	.wrapper-place-slider{
 		width: 100%;
 
+		.swiper-slide{
+			position: relative;
+		}
+
+		.background-dark{
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: url("../images/slider/slider-bg.png") 30% 50% no-repeat;
+			z-index: -1;
+		}
+
 		.place-wrapper{
 			height: 357px;
 			width: 100%;
 			display: block;
+			background-color: #0d0c11;
 
 			&.i-1{
 				background: url("../images/slider/slide-1.png") 50% 20% no-repeat;
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				position: relative;
+				opacity: 0.4;
+
 			}
 
 			&.i-2{
@@ -336,6 +363,7 @@ h2{
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				opacity: 0.4;
 			}
 
 			&.i-3{
@@ -343,6 +371,7 @@ h2{
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				opacity: 0.4;
 			}
 
 			&.i-4{
@@ -350,6 +379,7 @@ h2{
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				opacity: 0.4;
 			}
 
 			&.i-5{
@@ -357,6 +387,7 @@ h2{
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				opacity: 0.4;
 			}
 
 			&.i-6{
@@ -364,6 +395,7 @@ h2{
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				opacity: 0.4;
 			}
 
 			&.i-7{
@@ -371,6 +403,7 @@ h2{
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				opacity: 0.4;
 			}
 
 			&.i-8{
@@ -378,6 +411,7 @@ h2{
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				opacity: 0.4;
 			}
 
 			&.i-9{
@@ -385,6 +419,7 @@ h2{
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				opacity: 0.4;
 			}
 
 			&.i-10{
@@ -392,6 +427,7 @@ h2{
 				-webkit-background-size: cover;
 				background-size: cover;
 				@include img-zoom(#16161c, .35, 4);
+				opacity: 0.4;
 			}
 		}
 

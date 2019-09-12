@@ -4211,11 +4211,15 @@ h2 {
     -webkit-background-size: cover;
     background-size: cover;
     top: -90px;
-    left: 0; }
+    left: 0;
+    z-index: 10; }
     @media all and (max-width: 750px) {
       .section-heading:after {
         top: 500px;
         left: -55%; } }
+  @media all and (max-width: 1280px) {
+    .section-heading:after {
+      left: -250px; } }
   .section-heading .header-img {
     position: absolute;
     top: -84px;
@@ -4345,17 +4349,31 @@ h2 {
 
 .section-sub_header .wrapper-place-slider {
   width: 100%; }
+  .section-sub_header .wrapper-place-slider .swiper-slide {
+    position: relative; }
+  .section-sub_header .wrapper-place-slider .background-dark {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/slider/slider-bg.png") 30% 50% no-repeat;
+    z-index: -1; }
   .section-sub_header .wrapper-place-slider .place-wrapper {
     height: 357px;
     width: 100%;
-    display: block; }
+    display: block;
+    background-color: #0d0c11; }
     .section-sub_header .wrapper-place-slider .place-wrapper.i-1 {
       background: url("../images/slider/slide-1.png") 50% 20% no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      position: relative;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-1 img {
         display: block;
         position: relative;
@@ -4417,7 +4435,8 @@ h2 {
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-2 img {
         display: block;
         position: relative;
@@ -4479,7 +4498,8 @@ h2 {
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-3 img {
         display: block;
         position: relative;
@@ -4541,7 +4561,8 @@ h2 {
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-4 img {
         display: block;
         position: relative;
@@ -4603,7 +4624,8 @@ h2 {
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-5 img {
         display: block;
         position: relative;
@@ -4665,7 +4687,8 @@ h2 {
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-6 img {
         display: block;
         position: relative;
@@ -4727,7 +4750,8 @@ h2 {
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-7 img {
         display: block;
         position: relative;
@@ -4789,7 +4813,8 @@ h2 {
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-8 img {
         display: block;
         position: relative;
@@ -4851,7 +4876,8 @@ h2 {
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-9 img {
         display: block;
         position: relative;
@@ -4913,7 +4939,8 @@ h2 {
       background-size: cover;
       display: block;
       position: relative;
-      cursor: pointer !important; }
+      cursor: pointer !important;
+      opacity: 0.4; }
       .section-sub_header .wrapper-place-slider .place-wrapper.i-10 img {
         display: block;
         position: relative;

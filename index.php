@@ -288,51 +288,61 @@ $image = SI_CurrentPageImage();
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <a href="images/slider/slide-1.png" class="place-wrapper i-1" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <a href="images/slider/slide-2.png" class="place-wrapper i-2" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <<a href="images/slider/slide-3.png" class="place-wrapper i-3" data-fancybox="slider"></a>
+                        <a href="images/slider/slide-3.png" class="place-wrapper i-3" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <a href="images/slider/slide-4.png" class="place-wrapper i-4" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <a href="images/slider/slide-5.png" class="place-wrapper i-5" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <a href="images/slider/slide-6.png" class="place-wrapper i-6" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <a href="images/slider/slide-7.png" class="place-wrapper i-7" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <a href="images/slider/slide-8.png" class="place-wrapper i-8" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <a href="images/slider/slide-9.png" class="place-wrapper i-9" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <a href="images/slider/slide-10.png" class="place-wrapper i-10" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
                 </div>
             </div>
@@ -1130,61 +1140,11 @@ $image = SI_CurrentPageImage();
             <h2>
                 Дилеры
             </h2>
-            <div class="row hidden-xs">
-                <div class="col-1-3">
-                   <div class="dealer-block">
-                       <img class="logo" src="images/logos/slide-logo-1.png" alt=" ">
-                       <h4>
-                           Название
-                       </h4>
-                       <a class="link" href="#">Адрес сайта</a>
-                       <a class="link" href="#">Email</a>
-                       <div class="text">
-                           Телефон
-                       </div>
-                       <div class="text">
-                           Адрес
-                       </div>
-                   </div>
-                </div>
-                <div class="col-1-3">
-                    <div class="dealer-block">
-                        <img class="logo" src="images/logos/slide-logo-2.png" alt=" ">
-                        <h4>
-                            Название
-                        </h4>
-                        <a class="link" href="#">Адрес сайта</a>
-                        <a class="link" href="#">Email</a>
-                        <div class="text">
-                            Телефон
-                        </div>
-                        <div class="text">
-                            Адрес
-                        </div>
-                    </div>
-                </div>
-                <div class="col-1-3">
-                    <div class="dealer-block">
-                        <img class="logo" src="images/logos/slide-logo-3.png" alt=" ">
-                        <h4>
-                            Название
-                        </h4>
-                        <a class="link" href="#">Адрес сайта</a>
-                        <a class="link" href="#">Email</a>
-                        <div class="text">
-                            Телефон
-                        </div>
-                        <div class="text">
-                            Адрес
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="wrapper-review-slider visible-xs">
+            <div class="wrapper-dealer-slider">
 
                 <!-- Swiper -->
-                <div class="swiper-container review-slider">
+                <div class="swiper-container dealer-slider">
                     <div class="swiper-wrapper">
 
                         <!-- single slide -->
@@ -1245,13 +1205,15 @@ $image = SI_CurrentPageImage();
                 </div>
 
                 <!-- Add Arrows -->
-                <div class="swiper-button-next review-next">
+                <div class="swiper-button-next dealer-next">
                     <img src="images/left-icon.png" alt=" ">
                 </div>
-                <div class="swiper-button-prev review-prev">
+                <div class="swiper-button-prev dealer-prev">
                     <img src="images/right-icon.png" alt=" ">
                 </div>
             </div>
+
+
         </div>
     </section>
 
