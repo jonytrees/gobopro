@@ -1297,10 +1297,15 @@ h2{
 	.sertificate-prev{
 		top: 45%;
 		display: block;
+		width: 20px;
 
 		svg{
 			width: 32px;
 			height: 56px;
+		}
+
+		@include mobile{
+			top: 62%;
 		}
 	}
 
@@ -1529,6 +1534,30 @@ h2{
 			font: 300 25px/25px 'Myriad';
 			margin-bottom: 20px;
 		}
+	}
+
+	.dealer-next,
+	.dealer-prev{
+		top: 55%;
+		display: block;
+		width: 20px;
+
+		svg{
+			width: 32px;
+			height: 56px;
+		}
+
+		@include mobile{
+			top: 62%;
+		}
+	}
+
+	.dealer-next{
+		right: 5%;
+	}
+
+	.dealer-prev{
+		left: 5%;
 	}
 
 	.img-sertificate{

@@ -5673,11 +5673,16 @@ h2 {
   .section-sertificate .sertificate-next,
   .section-sertificate .sertificate-prev {
     top: 45%;
-    display: block; }
+    display: block;
+    width: 20px; }
     .section-sertificate .sertificate-next svg,
     .section-sertificate .sertificate-prev svg {
       width: 32px;
       height: 56px; }
+    @media all and (max-width: 750px) {
+      .section-sertificate .sertificate-next,
+      .section-sertificate .sertificate-prev {
+        top: 62%; } }
   .section-sertificate .sertificate-next {
     right: 5%; }
   .section-sertificate .sertificate-prev {
@@ -5835,6 +5840,23 @@ h2 {
       color: #eee;
       font: 300 25px/25px 'Myriad';
       margin-bottom: 20px; }
+  .section-review .dealer-next,
+  .section-review .dealer-prev {
+    top: 55%;
+    display: block;
+    width: 20px; }
+    .section-review .dealer-next svg,
+    .section-review .dealer-prev svg {
+      width: 32px;
+      height: 56px; }
+    @media all and (max-width: 750px) {
+      .section-review .dealer-next,
+      .section-review .dealer-prev {
+        top: 62%; } }
+  .section-review .dealer-next {
+    right: 5%; }
+  .section-review .dealer-prev {
+    left: 5%; }
   .section-review .img-sertificate {
     display: block;
     width: 341px;
