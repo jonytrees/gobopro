@@ -75,7 +75,7 @@ $image = SI_CurrentPageImage();
         </div>
 
     <!--===================================================== Action -->
-    <div class="action-block si-floating2">
+    <a href="#" class="action-block">
         <div class="action-title">
             Акция!
         </div>
@@ -84,7 +84,7 @@ $image = SI_CurrentPageImage();
             доставка
             по России
         </div>
-    </div>
+    </a>
 
     <!--===================================================== Header -->
     <header class="layout-header">
@@ -92,14 +92,14 @@ $image = SI_CurrentPageImage();
             <div class="row position">
 
                 <!-- Logo -->
-                <div class="col-1-3">
+                <div class="col-1-4 col-xs-1-3">
                     <a href="#" class="logo si-jump">
                         <img src="images/logo.png" alt=" ">
                     </a>
                 </div>
 
                 <!-- Phone block -->
-                <div class="col-2-3">
+                <div class="col-3-4 col-xs-2-3">
                     <div class="si-phone">
                         <a href="mailto:info@gobopro-x55.ru" class="mail-link hidden-xs">info@gobopro-x55.ru</a>
                         <a href="tel:+78002018887" class="phone-link">8 800 201-888-7</a>
@@ -112,28 +112,30 @@ $image = SI_CurrentPageImage();
                         <div class="nav-item"></div>
                     </div>
                 </div>
-
-                <div class="global-nav hidden-xs">
-                    <div class="pseudo-table">
-                        <div class="pseudo-table-cell nav-overlay">
-                            <ul class="nav" id="global-menu">
-                                <li><a class="si-jump global-nav-link"  href="#install">Установка</a></li>
-                                <li><a class="si-jump global-nav-link" href="#quality">Гарантия</a></li>
-                                <li><a class="si-jump global-nav-link" href="#free-second">Доставка</a></li>
-                                <li><a class="si-jump global-nav-link" href="#review">Отзывы</a></li>
-                                <li><a class="si-jump global-nav-link" href="#sertificate">О компании</a></li>
-                            </ul>
-                            <a href="tel:+74997558887" class="phone-link">8 499 755-888-7</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
+<!--        <div class="global-nav hidden-xs">-->
+<!--            <div class="pseudo-table">-->
+<!--                <div class="pseudo-table-cell nav-overlay">-->
+<!--                    <ul class="nav" id="global-menu">-->
+<!--                        <li><a class="si-jump global-nav-link"  href="#install">Установка</a></li>-->
+<!--                        <li><a class="si-jump global-nav-link" href="#quality">Гарантия</a></li>-->
+<!--                        <li><a class="si-jump global-nav-link" href="#free-second">Доставка</a></li>-->
+<!--                        <li><a class="si-jump global-nav-link" href="#review">Отзывы</a></li>-->
+<!--                        <li><a class="si-jump global-nav-link" href="#sertificate">О компании</a></li>-->
+<!--                    </ul>-->
+<!--                    <a href="tel:+74997558887" class="phone-link">8 499 755-888-7</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </header>
 
     <!--===================================================== section heading -->
     <section class="section-heading" id="heading">
+
+
         <div class="container">
+            <div class="block-after"></div>
             <div class="header-img hidden-xs"></div>
 
             <h1>
@@ -149,7 +151,7 @@ $image = SI_CurrentPageImage();
             </div>
 
 
-            <div class="hidden-xs">
+            <div class="hidden-xs z-index">
                 <a href="#" class="btn open-project-modal gradient-button" data-extra="1">
                     Заказать проектор
                 </a>
@@ -173,14 +175,6 @@ $image = SI_CurrentPageImage();
                 <div class="wrapper-desc">
                     <div class="desc-block">
                         <div class="title">
-                            до 55 м
-                        </div>
-                        <span>
-                        расстояние
-                    </span>
-                    </div>
-                    <div class="desc-block">
-                        <div class="title">
                             55 Вт
                         </div>
                         <span>
@@ -189,10 +183,19 @@ $image = SI_CurrentPageImage();
                     </div>
                     <div class="desc-block">
                         <div class="title">
-                            до -40 °c
+                            до 55 м
                         </div>
                         <span>
-                       гарантированно работает
+                        расстояние
+                    </span>
+                    </div>
+
+                    <div class="desc-block">
+                        <div class="title">
+                            до -40°C
+                        </div>
+                        <span>
+                        работает
                     </span>
                     </div>
                     <div class="desc-block">
@@ -1320,26 +1323,49 @@ $image = SI_CurrentPageImage();
     <div class="si-overlay-2"></div>
 
     <div class="nav-block visible-xs">
-        <div class="show-mobile-menu second-screen-block">
+        <div class="show-menu second-screen-block">
             <span class="icon-sandwich"></span>
             <span class="text">Закрыть</span>
         </div>
         <div class="nav-item"></div>
     </div>
 
-    <div class="global-mobile-nav">
-        <div class="pseudo-table">
-            <div class="pseudo-table-cell nav-overlay">
-                <ul class="nav" id="global-menu">
-                    <li><a class="si-jump global-nav-link"  href="#install">Установка</a></li>
-                    <li><a class="si-jump global-nav-link" href="#quality">Гарантия</a></li>
-                    <li><a class="si-jump global-nav-link" href="#free-second">Доставка</a></li>
-                    <li><a class="si-jump global-nav-link" href="#review">Отзывы</a></li>
-                    <li><a class="si-jump global-nav-link" href="#sertificate">О компании</a></li>
-                </ul>
+            <div class="global-nav">
+                <div class="wrapper">
+                    <div class="container">
+                        <div class="row position">
+
+                            <!-- Logo -->
+                            <div class="col-1-4 col-xs-1-3">
+                                <a href="#" class="logo si-jump">
+                                    <img src="images/logo.png" alt=" ">
+                                </a>
+                            </div>
+
+                            <!-- Phone block -->
+                            <div class="col-3-4 col-xs-2-3">
+                                <div class="si-phone">
+                                    <a href="mailto:info@gobopro-x55.ru" class="mail-link hidden-xs">info@gobopro-x55.ru</a>
+                                    <a href="tel:+78002018887" class="phone-link">8 800 201-888-7</a>
+                                </div>
+                                <a href="#" class="open-consult-modal consult" data-extra="1"><span>Заказать консультацию</span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pseudo-table">
+                    <div class="pseudo-table-cell nav-overlay">
+                        <ul class="nav" id="global-menu">
+                            <li><a class="si-jump global-nav-link"  href="#install">Установка</a></li>
+                            <li><a class="si-jump global-nav-link" href="#quality">Гарантия</a></li>
+                            <li><a class="si-jump global-nav-link" href="#free-second">Доставка</a></li>
+                            <li><a class="si-jump global-nav-link" href="#review">Отзывы</a></li>
+                            <li><a class="si-jump global-nav-link" href="#sertificate">О компании</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
     <!-- Wrappers -->
     <div class="si-modals-wrapper-2"></div>

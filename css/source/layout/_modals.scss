@@ -19,12 +19,12 @@ html {
 	@include abs-center-fixed;
 	display: none;
 	background: transparentize(#121217, .1);
-	z-index: 203;
+	z-index: 403;
 }
 
 .si-overlay-2 {
 	@extend .si-overlay;
-	z-index: 205;
+	z-index: 405;
 }
 
 .si-modals-wrapper {
@@ -32,12 +32,12 @@ html {
 	display: none;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
-	z-index: 203;
+	z-index: 403;
 }
 
 .si-modals-wrapper-2 {
 	@extend .si-modals-wrapper;
-	z-index: 205;
+	z-index: 405;
 }
 
 //==================== modal close

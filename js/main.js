@@ -421,7 +421,9 @@ jQuery(function ($) {
 
         // $('html').removeClass('si-lock2');
         showMenu.removeClass('opened');
-        $('.layout-header .si-phone').css('display', 'inline-block');
+        $('.layout-header .si-phone').removeClass('hidden');
+        $('.layout-header .logo').removeClass('hidden');
+        $('.layout-header .consult').removeClass('hidden');
         globalNavigation.removeClass('active');
         // $('.layout-header').removeClass('active-menu');
         setTimeout(function () {
@@ -438,7 +440,10 @@ jQuery(function ($) {
         } else {
             // $('html').addClass('si-lock2');
             $(this).addClass('opened');
-            $('.layout-header .si-phone').css('display', 'none');
+            $('.layout-header').css('border-bottom', 'none');
+            $('.layout-header .si-phone').addClass('hidden');
+            $('.layout-header .logo').addClass('hidden');
+            $('.layout-header .consult').addClass('hidden');
             globalNavigation.addClass('visible').addClass('active');
 
             // $('.layout-header').addClass('active-menu');
@@ -461,56 +466,56 @@ jQuery(function ($) {
     });
 
     //===================================================== mobile menu
-    var showMenuMobile = $('.show-mobile-menu');
-
-    function closeGlobalNavMobile(timeout) {
-        var globalNavigationMobile = $('.global-mobile-nav'),
-            showMenuMobile = $('.show-mobile-menu');
-
-        $('html').removeClass('si-lock2');
-        showMenuMobile.removeClass('opened');
-        // $('.layout-header .si-phone').css('display', 'inline-block');
-        globalNavigationMobile.removeClass('active');
-        $('.layout-header .consult').css('display', 'inline-block');
-        $('.layout-header .si-phone').css('padding-left', '90px').css('padding-top', '0');
-        $('.show-mobile-menu .text').css('display', 'none');
-        setTimeout(function () {
-            globalNavigationMobile.removeClass('visible');
-        }, timeout);
-    }
+    // var showMenuMobile = $('.show-mobile-menu');
+    //
+    // function closeGlobalNavMobile(timeout) {
+    //     var globalNavigationMobile = $('.global-mobile-nav'),
+    //         showMenuMobile = $('.show-mobile-menu');
+    //
+    //     $('html').removeClass('si-lock2');
+    //     showMenuMobile.removeClass('opened');
+    //     // $('.layout-header .si-phone').css('display', 'inline-block');
+    //     globalNavigationMobile.removeClass('active');
+    //     $('.layout-header .consult').css('display', 'inline-block');
+    //     $('.layout-header .si-phone').css('padding-left', '90px').css('padding-top', '0');
+    //     $('.show-mobile-menu .text').css('display', 'none');
+    //     setTimeout(function () {
+    //         globalNavigationMobile.removeClass('visible');
+    //     }, timeout);
+    // }
 
     //show menu button
-    showMenuMobile.click(function () {
-        var globalNavigationMobile = $('.global-mobile-nav');
-
-        if ($(this).hasClass('opened')) {
-            closeGlobalNavMobile(600);
-        } else {
-            $('html').addClass('si-lock2');
-            $(this).addClass('opened');
-            // $('.layout-header .si-phone').css('display', 'none');
-            globalNavigationMobile.addClass('visible').addClass('active');
-
-            $('.layout-header .consult').css('display', 'none');
-            $('.show-mobile-menu .text').css('display', 'block');
-            $('.layout-header .si-phone').css('padding-left', '50px').css('padding-top', '20px');
-        }
-    });
+    // showMenuMobile.click(function () {
+    //     var globalNavigationMobile = $('.global-mobile-nav');
+    //
+    //     if ($(this).hasClass('opened')) {
+    //         closeGlobalNavMobile(600);
+    //     } else {
+    //         $('html').addClass('si-lock2');
+    //         $(this).addClass('opened');
+    //         // $('.layout-header .si-phone').css('display', 'none');
+    //         globalNavigationMobile.addClass('visible').addClass('active');
+    //
+    //         $('.layout-header .consult').css('display', 'none');
+    //         $('.show-mobile-menu .text').css('display', 'block');
+    //         $('.layout-header .si-phone').css('padding-left', '50px').css('padding-top', '20px');
+    //     }
+    // });
 
     //navigation overlay click
-    $('.nav-overlay').click(function () {
-        closeGlobalNavMobile(600);
-    });
+    // $('.nav-overlay').click(function () {
+    //     closeGlobalNavMobile(600);
+    // });
 
     //close button click
-    $('.nav-close').click(function () {
-        closeGlobalNavMobile(600);
-    });
+    // $('.nav-close').click(function () {
+    //     closeGlobalNavMobile(600);
+    // });
 
     //global link click
-    $(".global-nav-link").click(function (e) {
-        closeGlobalNavMobile(1200);
-    });
+    // $(".global-nav-link").click(function (e) {
+    //     closeGlobalNavMobile(1200);
+    // });
 
 
     $(".program-block").click(function(){

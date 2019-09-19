@@ -8,7 +8,7 @@ html {
 	background: #121217;
 	font: 16px/24px 'Helvetica';
 	width: 100%;
-	min-width: 1200px;
+	min-width: 1150px;
 	max-width: 100%;
 	min-height: 100% !important;
 	position: relative;
@@ -21,7 +21,7 @@ html {
 
 body {
 	width: 100%;
-	min-width: 1200px;
+	min-width: 1150px;
 	max-width: 100%;
 	position: relative;
 	overflow: hidden;
@@ -34,7 +34,7 @@ body {
 //====================global container
 #global-wrapper {
 	overflow: hidden;
-	min-width: 1200px;
+	min-width: 1150px;
 	position: relative;
 
 	@include mobile{
@@ -45,7 +45,7 @@ body {
 //====================container
 .container {
 	display: block;
-	width: 1200px;
+	width: 1150px;
 	padding: 0 15px;
 	margin: 0 auto;
 	position: relative;
