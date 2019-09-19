@@ -3406,8 +3406,11 @@ textarea {
       padding-top: 20px;
       padding-bottom: 17px; } }
   .layout-header.active {
+    padding-top: 0;
+    padding-bottom: 0;
     border-bottom: none;
-    background: transparent; }
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
     .layout-header.active .logo,
     .layout-header.active .si-phone,
     .layout-header.active .phone-link,
