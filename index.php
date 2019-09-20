@@ -80,9 +80,14 @@ $image = SI_CurrentPageImage();
             Акция!
         </div>
         <div class="action-text">
-            Бесплатная
+            <div class="action-icon">
+                <?php include('svg/tracking.svg'); ?>
+            </div>
+            <span>
+                Бесплатная
             доставка
             по России
+            </span>
         </div>
     </a>
 
@@ -449,56 +454,259 @@ $image = SI_CurrentPageImage();
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-1">
-                                <img data-src="images/logos/slide-logo-1.png" alt=" ">
+                                <img data-src="images/logos/slide-logo1.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-2">
-                                <img data-src="images/logos/slide-logo-2.png" alt=" ">
+                                <img data-src="images/logos/slide-logo2.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-3">
-                                <img data-src="images/logos/slide-logo-3.png" alt=" ">
+                                <img data-src="images/logos/slide-logo3.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-4">
-                                <img data-src="images/logos/slide-logo-4.png" alt=" ">
+                                <img data-src="images/logos/slide-logo4.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-5">
-                                <img data-src="images/logos/slide-logo-5.png" alt=" ">
+                                <img data-src="images/logos/slide-logo5.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-6">
-                                <img data-src="images/logos/slide-logo-6.png" alt=" ">
+                                <img data-src="images/logos/slide-logo6.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-7">
-                                <img data-src="images/logos/slide-logo-7.png" alt=" ">
+                                <img data-src="images/logos/slide-logo7.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo8.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo9.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo10.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo11.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo12.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo13.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7-1">
+                                <img data-src="images/logos/slide-logo14.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo15.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo16.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo17.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo18.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo19.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo20.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo21.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo22.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo23.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo24.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo25.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo26.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo27.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo28.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo29.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo30.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo31.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo32.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo33.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo34.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo35.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo36.png" alt=" ">
                             </div>
                         </div>
 
                     </div>
                 </div>
 
-                <div class="swiper-pagination logo-pagination"></div>
+<!--                <div class="swiper-pagination logo-pagination"></div>-->
 
                 <!-- Add Arrows -->
                 <div class="swiper-button-next logo-next">
@@ -518,56 +726,259 @@ $image = SI_CurrentPageImage();
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-1">
-                                <img data-src="images/logos/slide-logo-1.png" alt=" ">
+                                <img data-src="images/logos/slide-logo1.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-2">
-                                <img data-src="images/logos/slide-logo-2.png" alt=" ">
+                                <img data-src="images/logos/slide-logo2.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-3">
-                                <img data-src="images/logos/slide-logo-3.png" alt=" ">
+                                <img data-src="images/logos/slide-logo3.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-4">
-                                <img data-src="images/logos/slide-logo-4.png" alt=" ">
+                                <img data-src="images/logos/slide-logo4.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-5">
-                                <img data-src="images/logos/slide-logo-5.png" alt=" ">
+                                <img data-src="images/logos/slide-logo5.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-6">
-                                <img data-src="images/logos/slide-logo-6.png" alt=" ">
+                                <img data-src="images/logos/slide-logo6.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="logo-wrapper i-7">
-                                <img data-src="images/logos/slide-logo-7.png" alt=" ">
+                                <img data-src="images/logos/slide-logo7.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo8.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo9.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo10.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo11.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo12.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo13.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7-1">
+                                <img data-src="images/logos/slide-logo14.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo15.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo16.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo17.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo18.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo19.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo20.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo21.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo22.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo23.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo24.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo25.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo26.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo27.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo28.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo29.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo30.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo31.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo32.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo33.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo34.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo35.png" alt=" ">
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="logo-wrapper i-7">
+                                <img data-src="images/logos/slide-logo36.png" alt=" ">
                             </div>
                         </div>
 
                     </div>
                 </div>
 
-                <div class="swiper-pagination logo-pagination logo-mobile"></div>
+<!--                <div class="swiper-pagination logo-pagination logo-mobile"></div>-->
 
                 <!-- Add Arrows -->
                 <div class="swiper-button-next logo-next">
@@ -1144,7 +1555,7 @@ $image = SI_CurrentPageImage();
                 Дилеры
             </h2>
 
-            <div class="wrapper-dealer-slider">
+            <div class="wrapper-dealer-slider hidden-xs">
 
                 <!-- Swiper -->
                 <div class="swiper-container dealer-slider">
@@ -1216,6 +1627,77 @@ $image = SI_CurrentPageImage();
                 </div>
             </div>
 
+            <div class="wrapper-dealer-slider visible-xs">
+
+                <!-- Swiper -->
+                <div class="swiper-container dealer-mobile-slider">
+                    <div class="swiper-wrapper">
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="dealer-block">
+                                <img class="logo" src="images/logos/slide-logo-1.png" alt=" ">
+                                <h4>
+                                    Название
+                                </h4>
+                                <a class="link" href="#">Адрес сайта</a>
+                                <a class="link" href="#">Email</a>
+                                <div class="text">
+                                    Телефон
+                                </div>
+                                <div class="text">
+                                    Адрес
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="dealer-block">
+                                <img class="logo" src="images/logos/slide-logo-2.png" alt=" ">
+                                <h4>
+                                    Название
+                                </h4>
+                                <a class="link" href="#">Адрес сайта</a>
+                                <a class="link" href="#">Email</a>
+                                <div class="text">
+                                    Телефон
+                                </div>
+                                <div class="text">
+                                    Адрес
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="dealer-block">
+                                <img class="logo" src="images/logos/slide-logo-3.png" alt=" ">
+                                <h4>
+                                    Название
+                                </h4>
+                                <a class="link" href="#">Адрес сайта</a>
+                                <a class="link" href="#">Email</a>
+                                <div class="text">
+                                    Телефон
+                                </div>
+                                <div class="text">
+                                    Адрес
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next dealer-next">
+                    <img src="images/left-icon.png" alt=" ">
+                </div>
+                <div class="swiper-button-prev dealer-prev">
+                    <img src="images/right-icon.png" alt=" ">
+                </div>
+            </div>
 
         </div>
     </section>

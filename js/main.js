@@ -244,6 +244,7 @@ jQuery(function ($) {
             loop: true,
             autoplay: {
 				delay: 5000,
+                disableOnInteraction: false,
 			  },
 			on: {
 				slideChange: function() {
@@ -268,6 +269,7 @@ jQuery(function ($) {
             loop: true,
             autoplay: {
                 delay: 5000,
+                disableOnInteraction: false,
             },
             on: {
                 slideChange: function() {
@@ -291,7 +293,8 @@ jQuery(function ($) {
             },
             loop: true,
             autoplay: {
-                delay: 5000,
+                delay: 2000,
+                disableOnInteraction: false,
             },
             on: {
                 slideChange: function() {
@@ -315,7 +318,8 @@ jQuery(function ($) {
             },
             loop: true,
             autoplay: {
-                delay: 5000,
+                delay: 2000,
+                disableOnInteraction: false,
             },
             on: {
                 slideChange: function() {
@@ -336,6 +340,7 @@ jQuery(function ($) {
             loop: true,
             autoplay: {
                 delay: 5000,
+                disableOnInteraction: false,
             },
             on: {
                 slideChange: function() {
@@ -356,6 +361,7 @@ jQuery(function ($) {
             loop: true,
             autoplay: {
                 delay: 5000,
+                disableOnInteraction: false,
             },
             on: {
                 slideChange: function() {
@@ -376,6 +382,7 @@ jQuery(function ($) {
             loop: true,
             autoplay: {
                 delay: 5000,
+                disableOnInteraction: false,
             },
             on: {
                 slideChange: function() {
@@ -387,6 +394,27 @@ jQuery(function ($) {
 
     if($('html').find('.dealer-slider-holder')){
         var dealerSlider = new Swiper('.dealer-slider', {
+            slidesPerView: 3,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.dealer-next',
+                prevEl: '.dealer-prev',
+            },
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            on: {
+                slideChange: function() {
+                    $.ionSound.play('wuf-1');
+                }
+            }
+        });
+    }
+
+    if($('html').find('.dealer-slider-holder')){
+        var dealerMobileSlider = new Swiper('.dealer-mobile-slider', {
             slidesPerView: 1,
             spaceBetween: 0,
             navigation: {
@@ -396,6 +424,7 @@ jQuery(function ($) {
             loop: true,
             autoplay: {
                 delay: 5000,
+                disableOnInteraction: false,
             },
             on: {
                 slideChange: function() {
