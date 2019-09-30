@@ -20,6 +20,10 @@ html {
 	z-index: 9999;
 	opacity: 0;
 	transition-duration: .5s;
+
+	img{
+		width: 200px;
+	}
 }
 
 .a-loader {

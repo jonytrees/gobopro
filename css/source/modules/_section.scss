@@ -14,22 +14,21 @@ img[data-src] {
 }
 
 .action-block {
-  width: 300px;
+  width: auto;
   display: block;
   height: auto;
   position: fixed;
+  background-image: linear-gradient(to left, #b943df 35%, #00c4ff 100%);
   box-shadow: 1px 2px 43px 8px rgba(14, 15, 22, 0.51);
-  right: -82px;
+  right: -100px;
   top: 50%;
   z-index: 150;
   border-radius: 10px;
   overflow: hidden;
-  transform: rotate(-270deg);
+  transform: rotate(270deg);
 
   &:hover{
     @include general-transition;
-    right: 0;
-    transform: rotate(-360deg);
 
     .action-icon{
       @extend .buzz-out;
@@ -40,29 +39,18 @@ img[data-src] {
     display: none;
   }
 
-  .action-title {
-    display: block;
-    width: 100%;
-    height: 57px;
-    background-color: #00c4ff;
-    background-image: linear-gradient(to left, #b943df 35%, #00c4ff 100%);
-    text-align: center;
-    color: #fff !important;
-    font: 300 27px/57px 'Myriad';
-
-  }
 
   .action-text {
-    background-color: #17171d;
 
     display: block;
     width: 100%;
-    padding: 23px 13px;
+    padding: 8px 13px;
 
     .action-icon{
       width: 40px;
       height: 40px;
       display: inline-block;
+      margin-right: 20px;
 
       svg{
         width: 40px;
@@ -76,7 +64,7 @@ img[data-src] {
       vertical-align: top;
       display: inline-block;
       color: #fff !important;
-      font: 300 17px/22px 'Myriad';
+      font: 300 20px/20px 'Myriad';
       margin-top: 12px;
     }
   }
@@ -294,7 +282,7 @@ h2 {
   .wrapper-desc {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 98%;
     margin-top: 87px;
 
     @include mobile{
@@ -303,13 +291,22 @@ h2 {
     }
 
     .desc-block {
-      width: 190px;
+      width: 160px;
       display: inline-block;
       vertical-align: top;
 
       @include mobile {
-        margin-right: 70px;
+        margin-right: 90px;
         margin-bottom: 40px;
+      }
+
+      &.i-1{
+        width: 185px;
+
+        @include mobile{
+          width: 195px;
+          margin-right: 55px;
+        }
       }
 
       .title {
@@ -826,7 +823,7 @@ h2 {
 
 //==================== section-video
 .section-video {
-  background: #121217 url("../images/video-fon.png") 50% 50% no-repeat;
+  //background: #121217 url("../images/video-fon.png") 50% 50% no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   padding-top: 186px;
@@ -887,11 +884,15 @@ h2 {
   }
 
   .review-item {
-    width: 500px;
+    width: 70%;
     height: 500px;
     position: relative;
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
+
+    img{
+      width: 100% !important;
+    }
 
     @include mobile {
       height: 550px;
@@ -1305,6 +1306,35 @@ h2 {
   }
 }
 
+//==================== section-service
+.section-service{
+  padding-top: 140px;
+  padding-bottom: 30px;
+  background-color: #16161c;
+
+  h3{
+    font: 700 38px/38px 'Myriad';
+    margin-bottom: 40px;
+    display: block;
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+    font: 300 18px/27px 'Helvetica';
+    width: 90%;
+    margin: 0 auto;
+
+    a{
+      color: #5998d2 !important;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 //==================== section-sertificate
 .section-sertificate {
   padding-top: 140px;
@@ -1328,14 +1358,14 @@ h2 {
     font: 300 18px/27px 'Helvetica';
     color: #d9d9d9;
     margin: 0 auto 80px;
-    text-align: center;
+    text-align: left;
   }
 
   .img-sertificate {
     display: block;
     width: 341px;
     height: 100%;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     @include img-zoom(#16161c, .35, 4);
   }
 
@@ -1393,7 +1423,7 @@ h2 {
 
 
   .review-item {
-    width: 500px;
+    width: 500%;
     height: 675px;
     position: relative;
     display: block;
@@ -1548,7 +1578,16 @@ h2 {
   background-color: #121217;
 
   h2 {
-    margin-bottom: 110px;
+    margin-bottom: 50px;
+  }
+
+  .sub_title {
+    width: 100%;
+    display: block;
+    font: 300 18px/27px 'Helvetica';
+    color: #d9d9d9;
+    margin: 0 auto 80px;
+    text-align: center;
   }
 
   .dealer-block {

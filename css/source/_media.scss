@@ -1,6 +1,13 @@
 $mobile-width: 750px;
 $tablet-width: 1100px;
 $desktop-width: 1280px;
+$medium-desktop-width: 1400px;
+
+@mixin medium-desktop {
+  @media all and (max-width: #{$medium-desktop-width}) {
+    @content;
+  }
+}
 
 @mixin small-desktop {
   @media all and (max-width: #{$desktop-width}) {

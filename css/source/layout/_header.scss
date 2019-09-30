@@ -28,7 +28,16 @@
     }
 
     .show-menu {
-      right: -20%;
+      right: -10%;
+      top: 45px;
+
+      @include medium-desktop{
+        right: -5%;
+      }
+
+      @include small-desktop{
+        right: 0;
+      }
     }
   }
 

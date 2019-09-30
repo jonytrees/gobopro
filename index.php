@@ -75,10 +75,7 @@ $image = SI_CurrentPageImage();
         </div>
 
     <!--===================================================== Action -->
-    <a href="#" class="action-block">
-        <div class="action-title">
-            Акция!
-        </div>
+    <a href="#service" class="action-block si-jump">
         <div class="action-text">
             <div class="action-icon">
                 <?php include('svg/tracking.svg'); ?>
@@ -86,7 +83,6 @@ $image = SI_CurrentPageImage();
             <span>
                 Бесплатная
             доставка
-            по России
             </span>
         </div>
     </a>
@@ -125,7 +121,7 @@ $image = SI_CurrentPageImage();
 <!--                    <ul class="nav" id="global-menu">-->
 <!--                        <li><a class="si-jump global-nav-link"  href="#install">Установка</a></li>-->
 <!--                        <li><a class="si-jump global-nav-link" href="#quality">Гарантия</a></li>-->
-<!--                        <li><a class="si-jump global-nav-link" href="#free-second">Доставка</a></li>-->
+<!--                        <li><a class="si-jump global-nav-link" href="#service">Доставка</a></li>-->
 <!--                        <li><a class="si-jump global-nav-link" href="#review">Отзывы</a></li>-->
 <!--                        <li><a class="si-jump global-nav-link" href="#sertificate">О компании</a></li>-->
 <!--                    </ul>-->
@@ -195,7 +191,7 @@ $image = SI_CurrentPageImage();
                     </span>
                     </div>
 
-                    <div class="desc-block">
+                    <div class="desc-block i-1">
                         <div class="title">
                             до -40°C
                         </div>
@@ -206,10 +202,17 @@ $image = SI_CurrentPageImage();
                     <div class="desc-block">
                         <div class="title">
                             1 год
-
                         </div>
                         <span>
-                      гарантии
+                      гарантия
+                    </span>
+                    </div>
+                    <div class="desc-block">
+                        <div class="title">
+                            слайд
+                        </div>
+                        <span>
+                      1 цвет в подарок
                     </span>
                     </div>
                 </div>
@@ -260,9 +263,9 @@ $image = SI_CurrentPageImage();
                         мощность
                     </span>
                 </div>
-                <div class="desc-block">
+                <div class="desc-block i-1">
                     <div class="title">
-                        до -40 °c
+                        до -40 °C
                     </div>
                     <span>
                        гарантированно работает
@@ -271,10 +274,17 @@ $image = SI_CurrentPageImage();
                 <div class="desc-block">
                     <div class="title">
                         1 год
-
                     </div>
                     <span>
-                      гарантии
+                      гарантия
+                    </span>
+                </div>
+                <div class="desc-block">
+                    <div class="title">
+                        слайд
+                    </div>
+                    <span>
+                      1 цвет в подарок
                     </span>
                 </div>
             </div>
@@ -372,52 +382,62 @@ $image = SI_CurrentPageImage();
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-1"></div>
+                        <a href="images/slider/slide-1.png" class="place-wrapper i-1" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-2"></div>
+                        <a href="images/slider/slide-2.png" class="place-wrapper i-2" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-3"></div>
+                        <a href="images/slider/slide-3.png" class="place-wrapper i-3" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-4"></div>
+                        <a href="images/slider/slide-4.png" class="place-wrapper i-4" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-5"></div>
+                        <a href="images/slider/slide-5.png" class="place-wrapper i-5" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-6"></div>
+                        <a href="images/slider/slide-6.png" class="place-wrapper i-6" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-7"></div>
+                        <a href="images/slider/slide-7.png" class="place-wrapper i-7" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-8"></div>
+                        <a href="images/slider/slide-8.png" class="place-wrapper i-8" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-9"></div>
+                        <a href="images/slider/slide-9.png" class="place-wrapper i-9" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <div class="place-wrapper i-10"></div>
+                        <a href="images/slider/slide-10.png" class="place-wrapper i-10" data-fancybox="slider"></a>
+                        <div class="background-dark"></div>
                     </div>
                 </div>
             </div>
@@ -1000,9 +1020,9 @@ $image = SI_CurrentPageImage();
 
             <div class="install-wrapper">
                 <div class="install-block">
-                    <div class="number">
-                        01/
-                    </div>
+<!--                    <div class="number">-->
+<!--                        01/-->
+<!--                    </div>-->
                     <div class="title">
                         Установка гобо слайда
                     </div>
@@ -1011,9 +1031,9 @@ $image = SI_CurrentPageImage();
                     </div>
                 </div>
                 <div class="install-block">
-                    <div class="number">
-                        02/
-                    </div>
+<!--                    <div class="number">-->
+<!--                        02/-->
+<!--                    </div>-->
                     <div class="title">
                         Монтаж
                     </div>
@@ -1022,9 +1042,9 @@ $image = SI_CurrentPageImage();
                     </div>
                 </div>
                 <div class="install-block">
-                    <div class="number">
-                        03/
-                    </div>
+<!--                    <div class="number">-->
+<!--                        03/-->
+<!--                    </div>-->
                     <div class="title">
                         Чёткая проекция
                     </div>
@@ -1056,8 +1076,7 @@ $image = SI_CurrentPageImage();
                             </div>
                         </div>
                         <div class="under-text">
-                            <span>Автоматическая фокусировка
-                            изображений</span> от 3 до 5 метров
+                            <span>Автоматическая фокусировка изображения</span> от 3 до 5 метров
                         </div>
                     </div>
                 </div>
@@ -1119,9 +1138,9 @@ $image = SI_CurrentPageImage();
 
                     <!-- ================================================ price tab 1-->
                     <div class="tab-content active" data-tab="t-price-1" data-tab-block="t-price">
-                        <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
+                        <a href="https://www.youtube.com/watch?v=R0Px-CHWai0&feature=youtu.be&amp;autoplay=1" class="review-item"
                            data-fancybox="review">
-
+                            <img data-src="images/maxresdefault1.jpg">
                             <div class="play-block">
                                 <div class="play-icon">
                                     <?php include('svg/play.svg'); ?>
@@ -1135,8 +1154,9 @@ $image = SI_CurrentPageImage();
 
                     <!-- ================================================ price tab 2-->
                     <div class="tab-content" data-tab="t-price-2" data-tab-block="t-price">
-                        <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
+                        <a href="https://www.youtube.com/watch?v=ZGJbfPtc10Y&amp;autoplay=1" class="review-item"
                            data-fancybox="review">
+                            <img data-src="images/maxresdefault2.jpg">
                             <div class="play-block">
                                 <div class="play-icon">
                                     <?php include('svg/play.svg'); ?>
@@ -1150,8 +1170,9 @@ $image = SI_CurrentPageImage();
 
                     <!-- ================================================ price tab 3-->
                     <div class="tab-content" data-tab="t-price-3" data-tab-block="t-price">
-                        <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
+                        <a href="https://www.youtube.com/watch?v=mtm2WbtRy1c&feature=youtu.be&amp;autoplay=1" class="review-item"
                            data-fancybox="review">
+                            <img data-src="images/maxresdefault3.jpg">
                             <div class="play-block">
                                 <div class="play-icon">
                                     <?php include('svg/play.svg'); ?>
@@ -1376,6 +1397,25 @@ $image = SI_CurrentPageImage();
     </section>
 
 
+    <!--===================================================== section service -->
+    <section class="section-service" id="service">
+        <div class="container">
+            <h3>
+                Доставка
+            </h3>
+
+            <p>
+                Для всех наших заказчиков мы будем рады обеспечить бесплатную доставку гобо проектора до
+                любого города в России. Доставка производится транспортной компанией СДЕК до пункта выдачи
+                заказов в вашем городе. С адресами ПВЗ можно ознакомиться по данной
+                <a target="_blank" href="https://www.cdek.ru/contacts/city-list.html">ссылке</a>.
+                Также мы можем отправить гобо проекторы и в другие
+                страны, такие как: Армения, Белоруссия, Казахстан, Киргизия, Узбекистан.
+            </p>
+        </div>
+    </section>
+
+
     <!--===================================================== section sertificate -->
     <section class="section-sertificate" id="sertificate">
         <div class="container">
@@ -1385,17 +1425,17 @@ $image = SI_CurrentPageImage();
             </h3>
 
             <div class="sub_title">
-                «Компания GoboPro® - лидер среди производителей светодиодных гобо проекторов.
-                Мы уделяем особое внимание деталям, добиваясь высокой эффективности и надежности продукции.
-                Каждому клиенту команда GoboPro обеспечивает индивидуальный подход и гарантировано
-                наивысшее качество нашей продукции и выполнения заказа!<br>
-                Сотрудничество с GoboPro по достоинству оценили наши клиенты, среди которых Burger King,
-                McDonald's, KFC, IKEA, KNAUF, ФОНБЕТ, государственные учреждения и другие требовательные к
-                качеству предприятия.<br>
+                Компания GoboPro® ― лидер среди производителей светодиодных гобо проекторов в России.
+                Внимание к деталям позволяет добиваться высокой эффективности нашей продукции и получать
+                безупречный результат. <br>
+                Работая с проектами наших клиентов, сотрудники GoboPro учитывают условия предстоящей работы
+                оборудования и особенности применения технологии в каждом отдельном случае, это позволяет
+                вырабатывать оптимальные решения поставленной задачи и предсказуемый результат.<br>
+                Нам доверяют требовательные к качеству клиенты, среди которых Burger King, KNAUF, McDonald's, KFC,
+                IKEA, ФОНБЕТ, государственные учреждения.<br>
                 GoboPro X55 - воплощение накопленных нами знаний и опыта, в основе которого заложена
                 сбалансированность эффективности, надежности и привлекательной цены. Вы оцените новинку от
-                GoboPro по достоинству!»
-
+                GoboPro по достоинству!
             </div>
 
             <div class="row hidden-xs">
@@ -1403,10 +1443,16 @@ $image = SI_CurrentPageImage();
                     <a class="img-sertificate" href="images/sertificate/sertificate-1.jpg" data-fancybox="sertificate">
                         <img data-src="images/sertificate/sertificate-1.jpg" alt=" ">
                     </a>
+                    <a class="img-sertificate" href="X55-spektr-001_p1.pdf" data-fancybox="sertificate">
+                        <embed  src="X55-spektr-001_p1.pdf" width="341px" height="590px" alt=" ">
+                    </a>
                 </div>
                 <div class="col-1-2">
                     <a class="img-sertificate" href="images/sertificate/sertificate-2.jpg" data-fancybox="sertificate">
                         <img data-src="images/sertificate/sertificate-2.jpg" alt=" ">
+                    </a>
+                    <a class="img-sertificate" href="X55-spektr-001_p2.pdf" data-fancybox="sertificate">
+                        <embed  src="X55-spektr-001_p2.pdf" width="341px" height="590px" alt=" ">
                     </a>
                 </div>
 
@@ -1552,8 +1598,17 @@ $image = SI_CurrentPageImage();
     <section class="section-review" id="review">
         <div class="container">
             <h2>
-                Дилеры
+                Наши представители
             </h2>
+
+            <div class="sub_title">
+                Заказывайте GoboPro X55 у наших авторизированных представителей (кликабельное словосочетание,
+                центрирующая экран на карусели с дилерами) или на нашем сайте (гиперссылка на оформление
+                заказа). <br>
+                Это гарантирует Вам получение оригинального продукта GoboPro, высокого уровня сервиса при
+                покупке и поддержку в течение всего срока эксплуатации.
+
+            </div>
 
             <div class="wrapper-dealer-slider hidden-xs">
 
@@ -1564,7 +1619,7 @@ $image = SI_CurrentPageImage();
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="dealer-block">
-                                <img class="logo" src="images/logos/slide-logo-1.png" alt=" ">
+                                <img class="logo" src="images/logos/slide-logo1.png" alt=" ">
                                 <h4>
                                     Название
                                 </h4>
@@ -1572,9 +1627,6 @@ $image = SI_CurrentPageImage();
                                 <a class="link" href="#">Email</a>
                                 <div class="text">
                                     Телефон
-                                </div>
-                                <div class="text">
-                                    Адрес
                                 </div>
                             </div>
                         </div>
@@ -1582,7 +1634,7 @@ $image = SI_CurrentPageImage();
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="dealer-block">
-                                <img class="logo" src="images/logos/slide-logo-2.png" alt=" ">
+                                <img class="logo" src="images/logos/slide-logo2.png" alt=" ">
                                 <h4>
                                     Название
                                 </h4>
@@ -1591,16 +1643,14 @@ $image = SI_CurrentPageImage();
                                 <div class="text">
                                     Телефон
                                 </div>
-                                <div class="text">
-                                    Адрес
-                                </div>
+
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="dealer-block">
-                                <img class="logo" src="images/logos/slide-logo-3.png" alt=" ">
+                                <img class="logo" src="images/logos/slide-logo3.png" alt=" ">
                                 <h4>
                                     Название
                                 </h4>
@@ -1609,9 +1659,7 @@ $image = SI_CurrentPageImage();
                                 <div class="text">
                                     Телефон
                                 </div>
-                                <div class="text">
-                                    Адрес
-                                </div>
+
                             </div>
                         </div>
 
@@ -1636,7 +1684,7 @@ $image = SI_CurrentPageImage();
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="dealer-block">
-                                <img class="logo" src="images/logos/slide-logo-1.png" alt=" ">
+                                <img class="logo" src="images/logos/slide-logo1.png" alt=" ">
                                 <h4>
                                     Название
                                 </h4>
@@ -1644,9 +1692,6 @@ $image = SI_CurrentPageImage();
                                 <a class="link" href="#">Email</a>
                                 <div class="text">
                                     Телефон
-                                </div>
-                                <div class="text">
-                                    Адрес
                                 </div>
                             </div>
                         </div>
@@ -1654,7 +1699,7 @@ $image = SI_CurrentPageImage();
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="dealer-block">
-                                <img class="logo" src="images/logos/slide-logo-2.png" alt=" ">
+                                <img class="logo" src="images/logos/slide-logo2.png" alt=" ">
                                 <h4>
                                     Название
                                 </h4>
@@ -1662,9 +1707,6 @@ $image = SI_CurrentPageImage();
                                 <a class="link" href="#">Email</a>
                                 <div class="text">
                                     Телефон
-                                </div>
-                                <div class="text">
-                                    Адрес
                                 </div>
                             </div>
                         </div>
@@ -1672,7 +1714,7 @@ $image = SI_CurrentPageImage();
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="dealer-block">
-                                <img class="logo" src="images/logos/slide-logo-3.png" alt=" ">
+                                <img class="logo" src="images/logos/slide-logo3.png" alt=" ">
                                 <h4>
                                     Название
                                 </h4>
@@ -1680,9 +1722,6 @@ $image = SI_CurrentPageImage();
                                 <a class="link" href="#">Email</a>
                                 <div class="text">
                                     Телефон
-                                </div>
-                                <div class="text">
-                                    Адрес
                                 </div>
                             </div>
                         </div>
@@ -1826,27 +1865,41 @@ $image = SI_CurrentPageImage();
 
                             <!-- Phone block -->
                             <div class="col-3-4 col-xs-2-3">
-                                <div class="si-phone">
+                                <div class="si-phone hidden visible-xs">
                                     <a href="mailto:info@gobopro-x55.ru" class="mail-link hidden-xs">info@gobopro-x55.ru</a>
                                     <a href="tel:+78002018887" class="phone-link">8 800 201-888-7</a>
                                 </div>
-                                <a href="#" class="open-consult-modal consult" data-extra="1"><span>Заказать консультацию</span></a>
-
+                                <a href="#" class="open-consult-modal consult hidden visible-xs" data-extra="1"><span>Заказать консультацию</span></a>
+<!---->
+                                <div class="pseudo-table hidden-xs">
+                                    <div class="pseudo-table-cell nav-overlay">
+                                        <ul class="nav" id="global-menu">
+                                            <li><a class="si-jump global-nav-link"  href="#install">Установка</a></li>
+                                            <li><a class="si-jump global-nav-link" href="#quality">Гарантия</a></li>
+                                            <li><a class="si-jump global-nav-link" href="#service">Доставка</a></li>
+                                            <li><a class="si-jump global-nav-link" href="#review">Отзывы</a></li>
+                                            <li><a class="si-jump global-nav-link" href="#sertificate">О компании</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <a href="tel:+78002018887" class="phone-link hidden-xs">8 800 201-888-7</a>
                     </div>
+
                 </div>
-                <div class="pseudo-table">
+                <div class="pseudo-table visible-xs">
                     <div class="pseudo-table-cell nav-overlay">
                         <ul class="nav" id="global-menu">
                             <li><a class="si-jump global-nav-link"  href="#install">Установка</a></li>
                             <li><a class="si-jump global-nav-link" href="#quality">Гарантия</a></li>
-                            <li><a class="si-jump global-nav-link" href="#free-second">Доставка</a></li>
+                            <li><a class="si-jump global-nav-link" href="#service">Доставка</a></li>
                             <li><a class="si-jump global-nav-link" href="#review">Отзывы</a></li>
                             <li><a class="si-jump global-nav-link" href="#sertificate">О компании</a></li>
                         </ul>
                     </div>
                 </div>
+
             </div>
 
     <!-- Wrappers -->
@@ -1888,9 +1941,35 @@ $image = SI_CurrentPageImage();
                     Полные характеристики
                 </div>
 
+
 <!--                    <div class="row">-->
                         <div class="left">
                             <img data-src="images/characteristic-img-1.png" alt=" " class="characteristic-img">
+                            <div class="characteristic-block i-1">
+                                <div class="characteristic-text">
+                                    Наименование
+                                </div>
+                            </div>
+                            <div class="characteristic-block i-1">
+                                <div class="characteristic-text">
+                                    Торговая марка
+                                </div>
+                            </div>
+                            <div class="characteristic-block i-1">
+                                <div class="characteristic-text">
+                                    Модель
+                                </div>
+                            </div>
+                            <div class="characteristic-block i-1-1">
+                                <div class="characteristic-text">
+                                    Описание
+                                </div>
+                            </div>
+                            <div class="characteristic-block i-1-2">
+                                <div class="characteristic-text">
+                                    Применение
+                                </div>
+                            </div>
                             <div class="characteristic-block i-1">
                                 <div class="characteristic-icon">
                                     <img src="images/characteristic/characteristic-icon-1.png" alt=" ">
@@ -1944,6 +2023,31 @@ $image = SI_CurrentPageImage();
                         <div class="right">
                             <img data-src="images/characteristic-img-2.png" alt=" " class="characteristic-img img-1">
                             <div class="characteristic-block i-7">
+                                <div class="characteristic-text">
+                                    Гобо проектор
+                                </div>
+                            </div>
+                            <div class="characteristic-block i-7">
+                                <div class="characteristic-text">
+                                    GoboPro®
+                                </div>
+                            </div>
+                            <div class="characteristic-block i-7">
+                                <div class="characteristic-text">
+                                    Х55
+                                </div>
+                            </div>
+                            <div class="characteristic-block i-7">
+                                <div class="characteristic-text">
+                                    Универсальный мощный гобо проектор для уличной рекламы с вращением изображения
+                                </div>
+                            </div>
+                            <div class="characteristic-block i-7">
+                                <div class="characteristic-text">
+                                    Внутри помещений, в том числе производственных, на улице под открытым небом
+                                </div>
+                            </div>
+                            <div class="characteristic-block i-7">
                                 <div class="characteristic-icon">
                                     <img src="images/characteristic/characteristic-icon-7.png" alt=" ">
                                 </div>
@@ -1987,6 +2091,8 @@ $image = SI_CurrentPageImage();
                         </div>
 <!--                    </div>-->
 
+                <a href="desc_GoboPro_Х55.pdf" class="gradient-button" target="_blank">Посмотреть полную
+                    характеристику</a>
             </div>
         </div>
 
@@ -2152,7 +2258,7 @@ $image = SI_CurrentPageImage();
 
                     <ul class="marked">
                         <li>
-                            Имя;
+                            ООО «ГобоПро»;
                         </li>
                         <li>
                             Телефон;
@@ -2161,7 +2267,7 @@ $image = SI_CurrentPageImage();
                             E-mail;
                         </li>
                         <li>
-                            Комментарий.
+                            Адрес.
                         </li>
                     </ul>
 
@@ -2259,3 +2365,6 @@ $image = SI_CurrentPageImage();
 Digital-agency "Hello, brand!" - http://hello-brand.ru/
 Дата создания: 16.03.2016
 Версия: 1.0
+-->
+</body>
+</html>

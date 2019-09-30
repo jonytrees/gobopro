@@ -145,6 +145,46 @@ html {
 	@include mobile{
 		width: 100%;
 	}
+
+	.text-block{
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 30px;
+
+		.title,
+		.text{
+			display: inline-block;
+			width: 50%;
+			vertical-align: top;
+			color: #fff;
+		}
+
+		.title{
+			font: 400 21px/21px 'Helvetica';
+		}
+
+		.text{
+			font: 400 18px/18px 'Helvetica';
+		}
+	}
+
+	.gradient-button {
+		width: 344px;
+		height: 65px;
+		font: 300 16px/67px 'Myriad';
+		text-transform: uppercase;
+		margin: 30px auto;
+		display: block;
+		text-align: center;
+		background: linear-gradient(to left, #b943df 35%, #00c4ff 100%);
+		color: #ffffff !important;
+		@extend .btn-ghost;
+
+		&:hover{
+			background: linear-gradient(to left, #00c4ff 0%, #b943df 100%);
+			@include general-transition;
+		}
+	}
 }
 
 .left,
@@ -195,6 +235,19 @@ html {
 
 		@include mobile{
 			width: 69%;
+		}
+	}
+
+	&.i-1-1{
+		.characteristic-text{
+			margin-top: 60px;
+		}
+	}
+
+	&.i-1-2{
+		.characteristic-text{
+			margin-top: 100px;
+			margin-bottom: 50px;
 		}
 	}
 
