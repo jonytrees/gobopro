@@ -5386,9 +5386,18 @@ h2 {
     .section-what .wrapper-what-slider .what-wrapper {
       width: 100%;
       position: relative; }
+      .section-what .wrapper-what-slider .what-wrapper .text {
+        text-align: center;
+        color: #fff;
+        font: 600 36px/36px 'Helvetica';
+        display: block;
+        margin: 20px auto; }
+        .section-what .wrapper-what-slider .what-wrapper .text.i-1 {
+          margin: 50px auto 70px;
+          font: 700 60px/60px 'Helvetica'; }
       .section-what .wrapper-what-slider .what-wrapper img {
-        width: 570px;
-        height: 581px;
+        width: 439px;
+        height: auto;
         display: block;
         margin: 0 auto; }
         @media all and (max-width: 750px) {

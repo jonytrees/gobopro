@@ -980,12 +980,27 @@ h2 {
       width: 100%;
       position: relative;
 
+      .text{
+        text-align: center;
+        color: #fff;
+        font: 600 36px/36px 'Helvetica';
+        display: block;
+        margin: 20px auto;
+
+        &.i-1{
+          margin: 50px auto 70px;
+          font: 700 60px/60px 'Helvetica';
+        }
+      }
+
       img {
         //@include abs-center;
-        width: 570px;
-        height: 581px;
+        width: 439px;
+        height: auto;
         display: block;
         margin: 0 auto;
+
+
 
         @include mobile {
           width: 70%;

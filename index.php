@@ -1210,21 +1210,49 @@ $image = SI_CurrentPageImage();
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="what-wrapper">
-                                <img data-src="images/slide-img.png" alt=" ">
+                                <div class="text">
+                                    1 цвет
+                                </div>
+                                <img data-src="images/gobo-slider-1.png" alt=" ">
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="what-wrapper">
-                                <img data-src="images/slide-img.png" alt=" ">
+                                <div class="text">
+                                    2 цвета
+                                </div>
+                                <img data-src="images/gobo-slider-2.png" alt=" ">
+                                <div class="text i-1">
+                                    +1500 <span>₽</span>
+                                </div>
                             </div>
                         </div>
 
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <div class="what-wrapper">
-                                <img data-src="images/slide-img.png" alt=" ">
+                                <div class="text">
+                                    3 цвета
+                                </div>
+                                <img data-src="images/gobo-slider-3.png" alt=" ">
+                                <div class="text i-1">
+                                   +3000 <span>₽</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                            <div class="what-wrapper">
+                                <div class="text">
+                                    4 цвета
+                                </div>
+                                <img data-src="images/gobo-slider-4.png" alt=" ">
+                                <div class="text i-1">
+                                    +4500 <span>₽</span>
+                                </div>
                             </div>
                         </div>
 
