@@ -157,16 +157,21 @@ $image = SI_CurrentPageImage();
                     Заказать проектор
                 </a>
 
-                <a href="images/procation/1/procation1.jpg" class="procation" data-fancybox="group">
+                <a href="images/procation/procation-1.png" class="procation" data-fancybox="group">
                     Примеры проекций
                 </a>
-                <a href="images/procation/1/procation2.jpeg" data-fancybox="group"></a>
-                <a href="images/procation/1/procation3.jpeg" data-fancybox="group"></a>
-                <a href="images/procation/1/procation4.jpeg" data-fancybox="group"></a>
-                <a href="images/procation/1/procation5.jpeg" data-fancybox="group"></a>
-                <a href="images/procation/1/procation6.jpeg" data-fancybox="group"></a>
-                <a href="images/procation/1/procation7.jpeg" data-fancybox="group"></a>
-                <a href="images/procation/1/procation8.jpeg" data-fancybox="group"></a>
+                <a href="images/procation/procation-2.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-3.jpg" data-fancybox="group"></a>
+                <a href="images/procation/procation-4.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-5.jpg" data-fancybox="group"></a>
+                <a href="images/procation/procation-6.jpeg" data-fancybox="group"></a>
+                <a href="images/procation/procation-7.jpg" data-fancybox="group"></a>
+                <a href="images/procation/procation-8.jpeg" data-fancybox="group"></a>
+                <a href="images/procation/procation-9.jpg" data-fancybox="group"></a>
+                <a href="images/procation/procation-10.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-11.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-12.png" data-fancybox="group"></a>
+                <a href="images/procation/procation-13.jpg" data-fancybox="group"></a>
 
                 <div class="wrapper-desc">
                     <div class="desc-block">
@@ -225,16 +230,21 @@ $image = SI_CurrentPageImage();
                 Заказать проектор
             </a>
 
-            <a href="images/procation/1/procation1.jpg" class="procation" data-fancybox="group">
+            <a href="images/procation/procation-1.png" class="procation" data-fancybox="group">
                 Примеры проекций
             </a>
-            <a href="images/procation/1/procation2.jpeg" data-fancybox="group"></a>
-            <a href="images/procation/1/procation3.jpeg" data-fancybox="group"></a>
-            <a href="images/procation/1/procation4.jpeg" data-fancybox="group"></a>
-            <a href="images/procation/1/procation5.jpeg" data-fancybox="group"></a>
-            <a href="images/procation/1/procation6.jpeg" data-fancybox="group"></a>
-            <a href="images/procation/1/procation7.jpeg" data-fancybox="group"></a>
-            <a href="images/procation/1/procation8.jpeg" data-fancybox="group"></a>
+            <a href="images/procation/procation-2.png" data-fancybox="group"></a>
+            <a href="images/procation/procation-3.jpg" data-fancybox="group"></a>
+            <a href="images/procation/procation-4.png" data-fancybox="group"></a>
+            <a href="images/procation/procation-5.jpg" data-fancybox="group"></a>
+            <a href="images/procation/procation-6.jpeg" data-fancybox="group"></a>
+            <a href="images/procation/procation-7.jpg" data-fancybox="group"></a>
+            <a href="images/procation/procation-8.jpeg" data-fancybox="group"></a>
+            <a href="images/procation/procation-9.jpg" data-fancybox="group"></a>
+            <a href="images/procation/procation-10.png" data-fancybox="group"></a>
+            <a href="images/procation/procation-11.png" data-fancybox="group"></a>
+            <a href="images/procation/procation-12.png" data-fancybox="group"></a>
+            <a href="images/procation/procation-13.jpg" data-fancybox="group"></a>
 
             <div class="wrapper-desc">
                 <div class="desc-block">
@@ -1228,7 +1238,7 @@ $image = SI_CurrentPageImage();
                                 </div>
                                 <img data-src="images/gobo-slider-3.png" alt=" ">
                                 <div class="text i-1">
-                                    +3000 <span>₽</span>
+                                   +3000 <span>₽</span>
                                 </div>
                             </div>
                         </div>
@@ -1246,18 +1256,6 @@ $image = SI_CurrentPageImage();
                             </div>
                         </div>
 
-                        <!-- single slide -->
-                        <div class="swiper-slide">
-                            <div class="what-wrapper">
-                                <div class="text">
-                                    Полноцветный
-                                </div>
-                                <img data-src="images/gobo-slider-5.png" alt=" ">
-                                <div class="text i-1">
-                                    +6000 <span>₽</span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -1474,7 +1472,7 @@ $image = SI_CurrentPageImage();
                         <img data-src="images/sertificate/sertificate-1.jpg" alt=" ">
                     </a>
                     <a class="img-sertificate" href="X55-spektr-001_p1.pdf" data-fancybox="sertificate">
-                        <img data-src="images/sertificate/result-1.jpg" alt=" ">
+                        <embed  src="X55-spektr-001_p1.pdf" width="341px" height="590px" alt=" ">
                     </a>
                 </div>
                 <div class="col-1-2">
@@ -1482,7 +1480,7 @@ $image = SI_CurrentPageImage();
                         <img data-src="images/sertificate/sertificate-2.jpg" alt=" ">
                     </a>
                     <a class="img-sertificate" href="X55-spektr-001_p2.pdf" data-fancybox="sertificate">
-                        <img data-src="images/sertificate/result-2.jpg" alt=" ">
+                        <embed  src="X55-spektr-001_p2.pdf" width="341px" height="590px" alt=" ">
                     </a>
                 </div>
 
@@ -1508,20 +1506,6 @@ $image = SI_CurrentPageImage();
                             </a>
                         </div>
 
-                        <!-- single slide -->
-                        <div class="swiper-slide">
-                            <a class="img-sertificate" href="images/sertificate/result-1.jpg" data-fancybox="sertificate">
-                                <img data-src="images/sertificate/result-1.jpg" alt=" ">
-                            </a>
-                        </div>
-
-                        <!-- single slide -->
-                        <div class="swiper-slide">
-                            <a class="img-sertificate" href="images/sertificate/result-2.jpg" data-fancybox="sertificate">
-                                <img data-src="images/sertificate/result-2.jpg" alt=" ">
-                            </a>
-                        </div>
-
                     </div>
                 </div>
 
@@ -1543,9 +1527,9 @@ $image = SI_CurrentPageImage();
         <h2>
             Сравните наш проектор и обычный
         </h2>
-        <a href="https://www.youtube.com/watch?v=4JT6b5t-yco&amp;autoplay=1" class="review-item"
+        <a href="https://www.youtube.com/watch?v=XOIfBhSmoOc&amp;autoplay=1" class="review-item"
            data-fancybox="review">
-            <img src="images/image001.jpg" alt=" ">
+
             <div class="play-block">
                 <div class="play-icon">
                     <?php include('svg/play.svg'); ?>
@@ -1554,10 +1538,6 @@ $image = SI_CurrentPageImage();
                     Смотреть видео
                 </div>
             </div>
-        </a>
-
-        <a href="tablet_result.pdf" target="_blank" class="btn gradient-button">
-            Таблица с результатами
         </a>
     </section>
 
@@ -2306,7 +2286,7 @@ $image = SI_CurrentPageImage();
 
                     <ul class="marked">
                         <li>
-                            Имя;
+                             Имя;
                         </li>
                         <li>
                             Телефон;
