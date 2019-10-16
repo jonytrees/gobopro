@@ -509,6 +509,12 @@ iframe {
   src: url("../fonts/rouble.otf") format("otf");
   font-weight: bold;
   font-style: normal; }
+@font-face {
+  font-family: 'Myriad ruble';
+  src: url("../fonts/myriad.eot?79311997");
+  src: url("../fonts/myriad.eot?79311997#iefix") format("embedded-opentype"), url("../fonts/myriad.woff2?79311997") format("woff2"), url("../fonts/myriad.woff?79311997") format("woff"), url("../fonts/myriad.ttf?79311997") format("truetype"), url("../fonts/myriad.svg?79311997#myriad") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 @media all and (max-width: 750px) {
   .hidden-xs {
     display: none !important; } }
@@ -4258,7 +4264,7 @@ h2 {
     display: block;
     margin-bottom: 27px; }
     .section-heading h1 span {
-      font: 700 66px/83px 'Helvetica', sans-serif; }
+      font: 700 66px/83px 'Myriad ruble', sans-serif; }
   .section-heading .sub_title {
     width: 420px;
     display: block;

@@ -141,7 +141,7 @@ $image = SI_CurrentPageImage();
 
             <h1>
                 GoboPro X55 <br>
-                за 15 555 <span>₽</span>
+                за 15 555 <span>&#x20bd;</span>
 
             </h1>
 
